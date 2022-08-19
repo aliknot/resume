@@ -1,0 +1,14 @@
+.bannerWrapper {
+	display: flex;
+	justify-content: flex-start;
+	margin: 64px 0;
+	width: 100%;
+}
+
+.banner {
+	padding: 2px 12px;
+	background-color: $pale-grey;
+	font-size: 12px;
+	font-weight: 500;
+	color: $blue-purple;
+}
