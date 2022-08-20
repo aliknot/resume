@@ -1,8 +1,14 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../scss/Home.module.scss';
+import AboutDetails from '../components/AboutDetails';
+import AboutImage from '../components/AboutImage';
+import Banner from '../core/Banner';
+import data from '../../public/data.json';
+import styles from './styles.module.scss';
 
 const Home: NextPage = () => {
+	const { about, works } = data;
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -11,7 +17,25 @@ const Home: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main className={styles.main}></main>
+			<section className={styles.whiteSection}>
+				<div className={styles.wrapper}>
+					<Banner title='About Me' />
+					<div className={styles.aboutDetails}>
+						<AboutDetails about={about} />
+						<AboutImage image={about.image} />
+					</div>
+				</div>
+			</section>
+
+			<section className={styles.graySection}>
+				<div className={styles.wrapper}>
+					<Banner title='My Work' />
+					<h3 className={styles.myWorkTitle}>
+						Some of My Recent <span className={styles.bluePurple}>Works</span>
+					</h3>
+					<h4 className={styles.myWorkSubTitle}>{works.title}</h4>
+				</div>
+			</section>
 		</div>
 	);
 };
