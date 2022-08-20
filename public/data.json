@@ -1,0 +1,35 @@
+{
+	"about": {
+		"firstname": "Alireza",
+		"lastname": "Fazel",
+		"jobTitle": "Front End Developer",
+		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
+		"image": "/assets/images/About.jpg",
+		"socialLinks": [
+			{
+				"icon": "location",
+				"value": "Tehran - Isfahan"
+			},
+			{
+				"icon": "phone",
+				"value": "+98 9338234878"
+			},
+			{
+				"icon": "mail",
+				"value": "Alirezafazel379@gmail.com"
+			},
+			{
+				"icon": "twitter",
+				"value": "Alirezafz2000"
+			},
+			{
+				"icon": "linkedin",
+				"value": "alireza-fazel-863204199"
+			},
+			{
+				"icon": "instagram",
+				"value": "alireza_fz_2000"
+			}
+		]
+	}
+}
