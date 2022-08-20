@@ -1,6 +1,7 @@
 export type socialLink = {
 	icon: string;
 	value: string;
+	link?: string;
 };
 
 export interface about {

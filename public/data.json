@@ -12,11 +12,13 @@
 			},
 			{
 				"icon": "phone",
-				"value": "+98 9338234878"
+				"value": "+98 9338234878",
+				"link": "tel: +98 9338234878"
 			},
 			{
 				"icon": "mail",
-				"value": "Alirezafazel379@gmail.com"
+				"value": "Alirezafazel379@gmail.com",
+				"link": "mailto: alirezafazel379@gmail.com"
 			},
 			{
 				"icon": "twitter",
@@ -31,5 +33,8 @@
 				"value": "alireza_fz_2000"
 			}
 		]
+	},
+	"works": {
+		"title": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning."
 	}
 }
