@@ -5,5 +5,5 @@ export type hardSkill = {
 
 export interface hardSkills {
 	title: string;
-	skills: hardSkill[];
+	items: hardSkill[];
 }
