@@ -1,0 +1,49 @@
+.card {
+	padding: 32px;
+	border-radius: 16px;
+	border: 1px solid $light-blue-grey;
+	background-color: $white;
+	margin: 24px 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.date,
+.grade {
+	font-size: 12px;
+	color: $light-blue-grey;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.details {
+	margin-left: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: 600;
+	color: $black;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.type,
+.science {
+	font-size: 14px;
+	font-weight: normal;
+	color: $dark-blue-grey;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
