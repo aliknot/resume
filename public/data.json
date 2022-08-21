@@ -35,6 +35,113 @@
 		]
 	},
 	"works": {
-		"title": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning."
+		"subTitle": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.",
+		"items": [
+			{
+				"title": "Malltina",
+				"date": {
+					"start": "Jul 2021",
+					"finish": "Present"
+				},
+				"location": "Karaj",
+				"type": "Remote",
+				"jobTitle": "Front-End Developer",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "malltina.com"
+			}
+		]
+	},
+	"hardSkills": {
+		"title": "Hard Skills",
+		"items": [
+			{
+				"title": "Next.js",
+				"icon": "/assets/images/hard-skills/next.jpg"
+			},
+			{
+				"title": "React.js",
+				"icon": "/assets/images/hard-skills/react.jpg"
+			},
+			{
+				"title": "Typescript",
+				"icon": "/assets/images/hard-skills/typescript.jpg"
+			},
+			{
+				"title": "Javascript",
+				"icon": "/assets/images/hard-skills/javascript.jpg"
+			},
+			{
+				"title": "Sass",
+				"icon": "/assets/images/hard-skills/sass.jpg"
+			},
+			{
+				"title": "Sass",
+				"icon": "/assets/images/hard-skills/sass.jpg"
+			},
+			{
+				"title": "Git",
+				"icon": "/assets/images/hard-skills/git.jpg"
+			},
+			{
+				"title": "Html",
+				"icon": "/assets/images/hard-skills/html.jpg"
+			},
+			{
+				"title": "CSS",
+				"icon": "/assets/images/hard-skills/css.jpg"
+			},
+			{
+				"title": "jQuery",
+				"icon": "/assets/images/hard-skills/jquery.jpg"
+			},
+			{
+				"title": "PHP",
+				"icon": "/assets/images/hard-skills/php.jpg"
+			},
+			{
+				"title": "My SQL",
+				"icon": "/assets/images/hard-skills/mysql.jpg"
+			}
+		]
+	},
+	"softSkills": {
+		"title": "Soft Skills",
+		"items": [
+			"Communication skills",
+			"Organizing skills",
+			"Teamwork",
+			"Accuracy",
+			"Punctuality",
+			"Creativity",
+			"Adaptability",
+			"Friendly Personality"
+		]
+	},
+	"education": {
+		"title": "Educational History",
+		"items": [
+			{
+				"name": "Shamsipour Tehran",
+				"type": "Technical & Vocational",
+				"grade": "Bachelor's Degree",
+				"science": "Software Engineering",
+				"icon": "/assets/images/education/shamsipour.png",
+				"date": {
+					"start": "2020",
+					"finish": "2022"
+				}
+			},
+			{
+				"name": "Mohajer Isfahan",
+				"type": "Technical & Vocational",
+				"grade": "Associate's Degree",
+				"science": "Computer Engineering",
+				"icon": "/assets/images/education/mohajer.jpg",
+				"date": {
+					"start": "2018",
+					"finish": "2020"
+				}
+			}
+		]
 	}
 }
