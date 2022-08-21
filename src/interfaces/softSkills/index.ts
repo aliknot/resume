@@ -1,3 +1,4 @@
 export interface softSkills {
-	[index: number]: string;
+	title: string;
+	items: string[];
 }
