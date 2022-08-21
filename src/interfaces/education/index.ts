@@ -1,14 +1,15 @@
 import { date } from '../date';
 
-type degree = {
+export type degree = {
 	name: string;
 	type: string;
 	grade: string;
 	science: string;
+	icon: string;
 	date: date;
 };
 
 export interface education {
 	title: string;
-	degrees: degree[];
+	items: degree[];
 }
