@@ -1,0 +1,103 @@
+.workCard {
+	border: 1px solid $light-blue-grey;
+	background-color: $white;
+	border-radius: 24px;
+	width: calc(33% - 16px);
+	margin: 8px;
+}
+
+.top {
+	padding: 32px;
+	border-bottom: 1px solid $pale-grey;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+
+.date,
+.location {
+	font-size: 12px;
+	color: $light-blue-grey;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: 600;
+	color: $black;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.description {
+	font-size: 14px;
+	font-weight: normal;
+	color: $dark-blue-grey;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.linkWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	img {
+		border-radius: 4px;
+	}
+}
+
+.linkUrl {
+	font-size: 14px;
+	font-weight: normal;
+	color: $blue-purple;
+	text-decoration: underline;
+	margin-left: 8px;
+}
+
+.bottom {
+	padding: 32px;
+}
+
+.jobTitle {
+	font-size: 14px;
+	font-weight: 600;
+	color: $dark-blue-grey;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.hardSkills {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.hardSkill {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 8px 0;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	img {
+		border-radius: 50%;
+	}
+}
+
+.hardSkillTitle {
+	font-size: 14px;
+	font-weight: normal;
+	color: $dark-blue-grey;
+	margin-left: 8px;
+}
