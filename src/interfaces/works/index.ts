@@ -1,15 +1,19 @@
-import { Url } from 'url';
 import { date } from '../date';
-import { hardSkills } from '../hardSkills';
+import { hardSkill } from '../hardSkills';
 
-export interface work {
+export type work = {
 	title: string;
+	description: string;
 	date: date;
 	location: string;
-	type: 'Freelance' | 'Remote' | 'On Site';
-	projectName: string;
+	type: string;
 	jobTitle: string;
 	icon: string;
-	link: Url;
-	hardSkills: hardSkills;
+	link: string;
+	hardSkills: hardSkill[];
+};
+
+export interface works {
+	title: string;
+	items: work[];
 }
