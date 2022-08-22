@@ -101,3 +101,19 @@
 	color: $dark-blue-grey;
 	margin-left: 8px;
 }
+
+@media only screen and (max-width: $breakpoint-xl) {
+	.workCard {
+		width: calc(50% - 16px);
+	}
+}
+@media only screen and (max-width: $breakpoint-md) {
+	.workCard {
+		min-width: 352px;
+	}
+}
+@media only screen and (max-width: $breakpoint-sm) {
+	.workCard {
+		min-width: 90%;
+	}
+}

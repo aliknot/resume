@@ -44,3 +44,26 @@
 	font-size: 12px;
 	margin-right: 8px;
 }
+
+@media only screen and (max-width: $breakpoint-xl) {
+	.boxes {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.container {
+		width: 535px;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: $breakpoint-lg) {
+	.boxes {
+		flex-direction: row;
+	}
+}
+
+@media only screen and (max-width: $breakpoint-sm) {
+	.boxes {
+		display: none;
+	}
+}
