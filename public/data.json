@@ -35,10 +35,11 @@
 		]
 	},
 	"works": {
-		"subTitle": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.",
+		"title": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.",
 		"items": [
 			{
 				"title": "Malltina",
+				"description": "E-Commerce Web Application",
 				"date": {
 					"start": "Jul 2021",
 					"finish": "Present"
@@ -47,7 +48,110 @@
 				"type": "Remote",
 				"jobTitle": "Front-End Developer",
 				"icon": "/assets/images/works/malltina.jpg",
-				"link": "malltina.com"
+				"link": "https://malltina.com",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
+					},
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			},
+			{
+				"title": "Limoonline",
+				"description": "Virtual Classroom Landing Page",
+				"date": {
+					"start": "Feb 2022",
+					"finish": "Present"
+				},
+				"location": "",
+				"type": "Remote",
+				"jobTitle": "Front-End Developer",
+				"icon": "/assets/images/works/limoonline.jpg",
+				"link": "https://limoonline.ir",
+				"hardSkills": [
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			},
+			{
+				"title": "Aramicmedtour",
+				"description": "Health Tour Web Application",
+				"date": {
+					"start": "Mar 2020",
+					"finish": "Jul 2021"
+				},
+				"location": "Isfahan",
+				"type": "Remote",
+				"jobTitle": "Front-End Developer",
+				"icon": "/assets/images/works/aramicmedtour.png",
+				"link": "https://aramicmedtour.com",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
+					},
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					}
+				]
+			},
+			{
+				"title": "Gentleman Barbershop",
+				"description": "Barbershop Reservation Website",
+				"date": {
+					"start": "Jan 2020",
+					"finish": "Mar 2021"
+				},
+				"location": "",
+				"type": "Freelance",
+				"jobTitle": "PHP Developer",
+				"icon": "/assets/images/works/limoonline.jpg",
+				"link": "",
+				"hardSkills": [
+					{
+						"title": "PHP",
+						"icon": "/assets/images/hard-skills/php.jpg"
+					},
+					{
+						"title": "My SQL",
+						"icon": "/assets/images/hard-skills/mysql.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Html",
+						"icon": "/assets/images/hard-skills/html.jpg"
+					},
+					{
+						"title": "CSS",
+						"icon": "/assets/images/hard-skills/css.jpg"
+					}
+				]
 			}
 		]
 	},
@@ -69,10 +173,6 @@
 			{
 				"title": "Javascript",
 				"icon": "/assets/images/hard-skills/javascript.jpg"
-			},
-			{
-				"title": "Sass",
-				"icon": "/assets/images/hard-skills/sass.jpg"
 			},
 			{
 				"title": "Sass",
