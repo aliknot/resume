@@ -1,0 +1,82 @@
+.whiteSection {
+	width: 100%;
+	padding: 64px 128px;
+	background-color: $white;
+}
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.skillsAndEducationContainer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.skills {
+	width: 100%;
+	max-width: calc(66% - 64px);
+	padding-right: 64px;
+	border-right: 1px solid $pale-grey;
+	margin-right: 64px;
+	height: 100%;
+}
+
+.bluePurple {
+	color: $blue-purple;
+}
+
+.skillsTitle {
+	font-size: 14px;
+	font-weight: normal;
+	color: $black;
+	margin-bottom: 32px;
+}
+
+.boxes {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.box {
+	display: flex;
+	align-items: center;
+
+	span {
+		margin-left: 8px;
+	}
+
+	img {
+		border-radius: 50%;
+	}
+}
+.education {
+	width: 500px;
+}
+
+@media only screen and (max-width: $breakpoint-xl) {
+	.whiteSection {
+		padding: 64px;
+	}
+	.skillsAndEducationContainer {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.skills {
+		border-right: 0;
+		padding: 0;
+		margin: 0;
+		max-width: fit-content;
+		width: 100%;
+	}
+	.education {
+		margin-top: 128px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: $breakpoint-sm) {
+	.whiteSection {
+		padding: 64px 32px;
+	}
+}

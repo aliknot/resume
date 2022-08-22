@@ -1,0 +1,45 @@
+.whiteSection {
+	width: 100%;
+	padding: 64px 128px;
+	background-color: $white;
+}
+.boxesMobile {
+	display: none;
+}
+.boxes {
+	margin-top: 40px;
+}
+.boxIcon {
+	font-size: 12px;
+	margin-right: 8px;
+}
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.aboutDetails {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+@media only screen and (max-width: $breakpoint-lg) {
+	.aboutDetails {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.whiteSection {
+		padding: 64px;
+	}
+}
+@media only screen and (max-width: $breakpoint-sm) {
+	.boxesMobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+		align-self: stretch;
+		text-align: center;
+	}
+}
