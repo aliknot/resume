@@ -12,3 +12,7 @@ export interface about {
 	image: string;
 	socialLinks: socialLink[];
 }
+
+export interface AboutProps {
+	about: about;
+}

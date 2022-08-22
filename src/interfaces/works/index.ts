@@ -17,3 +17,7 @@ export interface works {
 	title: string;
 	items: work[];
 }
+
+export interface WorksProps {
+	works: works;
+}
