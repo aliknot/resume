@@ -32,14 +32,14 @@
 	color: $blue-purple;
 }
 
-.myWorkTitle {
+.workTitle {
 	font-size: 32px;
 	color: $dark-blue-grey;
 	margin-top: 0;
 	margin-bottom: 24px;
 }
 
-.myWorkSubTitle {
+.workSubtitle {
 	font-size: 14px;
 	font-weight: normal;
 	color: $black;
@@ -68,7 +68,7 @@
 
 .skills {
 	width: 100%;
-	max-width: 75%;
+	max-width: calc(66% - 64px);
 	padding-right: 64px;
 	border-right: 1px solid $pale-grey;
 	margin-right: 64px;
@@ -90,4 +90,12 @@
 
 .education {
 	width: 500px;
+}
+
+.workCardsWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin: 0 -16px;
 }
