@@ -3,16 +3,20 @@
 	padding: 64px 128px;
 	background-color: $white;
 }
+
 .boxesMobile {
 	display: none;
 }
+
 .boxes {
 	margin-top: 40px;
 }
+
 .boxIcon {
 	font-size: 12px;
 	margin-right: 8px;
 }
+
 .wrapper {
 	max-width: 1400px;
 	margin: 0 auto;
@@ -29,10 +33,12 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+
 	.whiteSection {
 		padding: 64px;
 	}
 }
+
 @media only screen and (max-width: $breakpoint-sm) {
 	.boxesMobile {
 		display: flex;
@@ -41,5 +47,9 @@
 		align-items: stretch;
 		align-self: stretch;
 		text-align: center;
+	}
+
+	.whiteSection {
+		padding: 64px 32px;
 	}
 }
