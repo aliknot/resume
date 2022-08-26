@@ -13,3 +13,7 @@ export interface education {
 	title: string;
 	items: degree[];
 }
+
+export interface EducationCardProps {
+	degree: degree;
+}

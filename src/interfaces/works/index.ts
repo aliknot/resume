@@ -21,3 +21,7 @@ export interface works {
 export interface WorksProps {
 	works: works;
 }
+
+export interface WorkCardProps {
+	work: work;
+}

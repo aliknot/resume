@@ -1,13 +1,9 @@
 import React from 'react';
 import Box from '../../core/Box';
-import { about } from '../../interfaces/about';
+import { AboutProps } from '../../interfaces/about';
 import styles from './styles.module.scss';
 
-interface AboutDetailsProps {
-	about: about;
-}
-
-const AboutDetails = ({ about }: AboutDetailsProps) => {
+const AboutDetails = ({ about }: AboutProps) => {
 	return (
 		<div className={styles.container}>
 			<h1 className={styles.headingTitle}>

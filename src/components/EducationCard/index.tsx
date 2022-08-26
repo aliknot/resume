@@ -1,11 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import { degree } from '../../interfaces/education';
+import { EducationCardProps } from '../../interfaces/education';
 import styles from './styles.module.scss';
-
-interface EducationCardProps {
-	degree: degree;
-}
 
 const EducationCard = ({ degree }: EducationCardProps) => {
 	const { date, grade, name, type, science } = degree;

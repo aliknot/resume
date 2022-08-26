@@ -1,10 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './styles.module.scss';
-
-interface AboutImageProps {
-	image: string;
-}
+import { AboutImageProps } from '../../interfaces/about';
 
 const AboutImage = ({ image }: AboutImageProps) => {
 	return (

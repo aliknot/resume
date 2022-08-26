@@ -16,3 +16,7 @@ export interface about {
 export interface AboutProps {
 	about: about;
 }
+
+export interface AboutImageProps {
+	image: string;
+}
