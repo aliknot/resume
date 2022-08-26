@@ -4,7 +4,7 @@
 		"lastname": "Fazel",
 		"jobTitle": "Front End Developer",
 		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
-		"image": "/assets/images/About.jpg",
+		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
 			{
 				"icon": "location",
