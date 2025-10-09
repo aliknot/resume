@@ -1,51 +1,51 @@
 {
 	"about": {
-		"firstname": "Alireza",
-		"lastname": "Fazel",
-		"jobTitle": "Front End Developer",
-		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
+		"firstname": "Mahdi",
+		"lastname": "Miri",
+		"jobTitle": "Data Scientist",
+		"description": ":)))))))))))))))",
 		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
 			{
 				"icon": "location",
-				"value": "Tehran - Isfahan"
+				"value": "Naples - Italy "
 			},
 			{
 				"icon": "phone",
-				"value": "+98 9338234878",
-				"link": "tel: +98 9338234878"
+				"value": "+39 3517867567",
+				"link": "tel: +39 3517867567"
 			},
 			{
 				"icon": "mail",
-				"value": "Alirezafazel379@gmail.com",
-				"link": "mailto: alirezafazel379@gmail.com"
+				"value": "mahdimiri7@gmail.com",
+				"link": "mailto: mahdimiri7@gmail.com"
 			},
 			{
 				"icon": "twitter",
-				"value": "Alirezafz2000"
+				"value": "------"
 			},
 			{
 				"icon": "linkedin",
-				"value": "alireza-fazel-863204199"
+				"value": "https://www.linkedin.com/in/mahdi-miri-dev/"
 			},
 			{
 				"icon": "instagram",
-				"value": "alireza_fz_2000"
+				"value": "imhdy_pv"
 			}
 		]
 	},
 	"works": {
-		"title": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.",
+		"title": "Machine-Learning and Text Analysis Projects ",
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
+				"description": "Text Processing",
 				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
+					"start": "2025",
+					"finish": ""
 				},
-				"location": "Karaj",
-				"type": "Remote",
+				"location": "Naples",
+				"type": " ",
 				"jobTitle": "Front-End Developer",
 				"icon": "/assets/images/works/malltina.jpg",
 				"link": "https://malltina.com",
@@ -159,48 +159,48 @@
 		"title": "Hard Skills",
 		"items": [
 			{
-				"title": "Next.js",
-				"icon": "/assets/images/hard-skills/next.jpg"
+				"title": "Python"
+				
 			},
 			{
-				"title": "React.js",
-				"icon": "/assets/images/hard-skills/react.jpg"
+				"title": "R"
+				
 			},
 			{
-				"title": "Typescript",
-				"icon": "/assets/images/hard-skills/typescript.jpg"
+				"title": "Machine-Learning"
+				
 			},
 			{
-				"title": "Javascript",
-				"icon": "/assets/images/hard-skills/javascript.jpg"
+				"title": "Deep-Learning"
+			
 			},
 			{
-				"title": "Sass",
-				"icon": "/assets/images/hard-skills/sass.jpg"
+				"title": "LLms"
+				
 			},
 			{
-				"title": "Git",
-				"icon": "/assets/images/hard-skills/git.jpg"
+				"title": "Git"
+				
 			},
 			{
-				"title": "Html",
-				"icon": "/assets/images/hard-skills/html.jpg"
+				"title": "Html"
+				
 			},
 			{
-				"title": "CSS",
-				"icon": "/assets/images/hard-skills/css.jpg"
+				"title": "CSS"
+				
 			},
 			{
-				"title": "jQuery",
-				"icon": "/assets/images/hard-skills/jquery.jpg"
+				"title": "Statistical Analysis"
+				
 			},
 			{
-				"title": "PHP",
-				"icon": "/assets/images/hard-skills/php.jpg"
+				"title": "Text Mining"
+				
 			},
 			{
-				"title": "My SQL",
-				"icon": "/assets/images/hard-skills/mysql.jpg"
+				"title": " Signal Processing"
+				
 			}
 		]
 	},
@@ -221,25 +221,23 @@
 		"title": "Educational History",
 		"items": [
 			{
-				"name": "Shamsipour Tehran",
+				"name": "University of Naples Federico II",
 				"type": "Technical & Vocational",
-				"grade": "Bachelor's Degree",
-				"science": "Software Engineering",
-				"icon": "/assets/images/education/shamsipour.png",
+				"grade": "Master's Degree",
+				"science": "Data Science",
 				"date": {
-					"start": "2020",
-					"finish": "2022"
+					"start": "2023",
+					"finish": "2026"
 				}
 			},
 			{
-				"name": "Mohajer Isfahan",
+				"name": "Islamic Azad University of Isfahan",
 				"type": "Technical & Vocational",
-				"grade": "Associate's Degree",
+				"grade": "Bacholer's Degree",
 				"science": "Computer Engineering",
-				"icon": "/assets/images/education/mohajer.jpg",
-				"date": {
-					"start": "2018",
-					"finish": "2020"
+				 "date": {
+					"start": "2019",
+					"finish": "2022"
 				}
 			}
 		]
