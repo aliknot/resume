@@ -34,6 +34,43 @@
 			}
 		]
 	},
+	"projects": {
+		"items": [
+			{
+				"title": "Malltina",
+				"description": "E-Commerce Web Application",
+				"date": {
+					"start": "Jul 2021",
+					"finish": "Present"
+				},
+				"role": "Front-End Developer",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "https://malltina.com",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
+					},
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			}
+		]
+	},
 	"works": {
 		"title": "Machine-Learning and Text Analysis Projects ",
 		"items": [
