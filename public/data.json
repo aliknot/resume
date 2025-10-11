@@ -4,7 +4,7 @@
 		"lastname": "Miri",
 		"jobTitle": "Data Scientist",
 		"description": ":)))))))))))))))",
-		"image": "/assets/images/about/about.jpg",
+		"image": "/assets/images/about/IMG_2654 (1).jpeg",
 		"socialLinks": [
 			{
 				"icon": "location",
@@ -37,15 +37,81 @@
 	"projects": {
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "Prohect 1 ",
+				"description": "Machine Learning ",
 				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
+					"start": "2025",
+					"finish": "Done"
 				},
-				"role": "Front-End Developer",
+				"role": "Preprocessing",
 				"icon": "/assets/images/works/malltina.jpg",
-				"link": "https://malltina.com",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
+					},
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			},
+			{
+				"title": "Prohect 2 ",
+				"description": "Machine Learning ",
+				"date": {
+					"start": "2025",
+					"finish": "Done"
+				},
+				"role": "Preprocessing",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
+					},
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			},
+			{
+				"title": "Prohect 3 ",
+				"description": "Machine Learning ",
+				"date": {
+					"start": "2025",
+					"finish": "Done"
+				},
+				"role": "Preprocessing",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "Git Link",
 				"hardSkills": [
 					{
 						"title": "Next.js",
@@ -70,6 +136,7 @@
 				]
 			}
 		]
+		
 	},
 	"works": {
 		"title": "Machine-Learning and Text Analysis Projects ",
@@ -110,40 +177,17 @@
 				]
 			},
 			{
-				"title": "Limoonline",
-				"description": "Virtual Classroom Landing Page",
+				"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
+				"description": "Text Processing",
 				"date": {
-					"start": "Feb 2022",
-					"finish": "Present"
+					"start": "2025",
+					"finish": ""
 				},
-				"location": "",
-				"type": "Remote",
+				"location": "Naples",
+				"type": " ",
 				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "https://limoonline.ir",
-				"hardSkills": [
-					{
-						"title": "React.js",
-						"icon": "/assets/images/hard-skills/react.jpg"
-					},
-					{
-						"title": "Sass",
-						"icon": "/assets/images/hard-skills/sass.jpg"
-					}
-				]
-			},
-			{
-				"title": "Aramicmedtour",
-				"description": "Health Tour Web Application",
-				"date": {
-					"start": "Mar 2020",
-					"finish": "Jul 2021"
-				},
-				"location": "Isfahan",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/aramicmedtour.png",
-				"link": "https://aramicmedtour.com",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "https://malltina.com",
 				"hardSkills": [
 					{
 						"title": "Next.js",
@@ -152,41 +196,88 @@
 					{
 						"title": "React.js",
 						"icon": "/assets/images/hard-skills/react.jpg"
-					}
-				]
-			},
-			{
-				"title": "Gentleman Barbershop",
-				"description": "Barbershop Reservation Website",
-				"date": {
-					"start": "Jan 2020",
-					"finish": "Mar 2021"
-				},
-				"location": "",
-				"type": "Freelance",
-				"jobTitle": "PHP Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "",
-				"hardSkills": [
-					{
-						"title": "PHP",
-						"icon": "/assets/images/hard-skills/php.jpg"
 					},
 					{
-						"title": "My SQL",
-						"icon": "/assets/images/hard-skills/mysql.jpg"
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
 					},
 					{
 						"title": "Javascript",
 						"icon": "/assets/images/hard-skills/javascript.jpg"
 					},
 					{
-						"title": "Html",
-						"icon": "/assets/images/hard-skills/html.jpg"
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			},
+			{
+				"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
+				"description": "Text Processing",
+				"date": {
+					"start": "2025",
+					"finish": ""
+				},
+				"location": "Naples",
+				"type": " ",
+				"jobTitle": "Front-End Developer",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "https://malltina.com",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
 					},
 					{
-						"title": "CSS",
-						"icon": "/assets/images/hard-skills/css.jpg"
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
+					}
+				]
+			},
+			{
+				"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
+				"description": "Text Processing",
+				"date": {
+					"start": "2025",
+					"finish": ""
+				},
+				"location": "Naples",
+				"type": " ",
+				"jobTitle": "Front-End Developer",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "https://malltina.com",
+				"hardSkills": [
+					{
+						"title": "Next.js",
+						"icon": "/assets/images/hard-skills/next.jpg"
+					},
+					{
+						"title": "React.js",
+						"icon": "/assets/images/hard-skills/react.jpg"
+					},
+					{
+						"title": "Typescript",
+						"icon": "/assets/images/hard-skills/typescript.jpg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/assets/images/hard-skills/javascript.jpg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/assets/images/hard-skills/sass.jpg"
 					}
 				]
 			}
