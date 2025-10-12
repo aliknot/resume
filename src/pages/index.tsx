@@ -4,10 +4,12 @@ import data from '../../public/data.json';
 import About from '../sections/About';
 import SkillsEducation from '../sections/SkillsEducation';
 import Work from '../sections/Work';
+import Projects from '../sections/Projects';
 import styles from './styles.module.scss';
 
+
 const Home: NextPage = () => {
-	const { about, works, hardSkills, softSkills, education } = data;
+	const { about, projects, works, hardSkills, softSkills, education } = data;
 
 	return (
 		<div className={styles.container}>
@@ -17,6 +19,7 @@ const Home: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<About about={about} />
+			<Projects projects={projects} />
 			<Work works={works} />
 			<SkillsEducation education={education} hardSkills={hardSkills} softSkills={softSkills} />
 		</div>

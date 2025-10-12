@@ -1,0 +1,50 @@
+.graySection {
+	width: 100%;
+	padding: 64px 128px;
+	background-color: #E0E0E0;
+}
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.workTitle {
+	font-size: 32px;
+	color: $dark-blue-grey;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+.bluePurple {
+	color: $blue-purple;
+}
+.workSubtitle {
+	font-size: 14px;
+	font-weight: normal;
+	color: $black;
+	margin-bottom: 32px;
+}
+.workCardsWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+}
+
+@media only screen and (max-width: $breakpoint-xl) {
+	.graySection {
+		padding: 64px;
+	}
+}
+
+@media only screen and (max-width: $breakpoint-md) {
+	.workCardsWrapper {
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		scrollbar-width: thin;
+	}
+}
+@media only screen and (max-width: $breakpoint-sm) {
+	.graySection {
+		padding: 64px 32px;
+	}
+}
