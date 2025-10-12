@@ -12,7 +12,6 @@ export type project = {
 }
 
 export interface projects {
-    title: string;
     items: project[];
 }
 

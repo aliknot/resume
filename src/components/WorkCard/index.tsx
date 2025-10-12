@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { WorkCardProps } from '../../interfaces/works';
-import styles from './styles.module.scss';
 import { hardSkill } from '../../interfaces/hardSkills';
+import styles from './styles.module.scss';
 
 const WorkCard = ({ work }: WorkCardProps) => {
 	const { date, location, type, title, description, icon, link, jobTitle, hardSkills } = work;
