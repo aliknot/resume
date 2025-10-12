@@ -11,7 +11,7 @@ export type work = {
 	icon: string;
 	link: string;
 	hardSkills: hardSkill[];
-};
+}
 
 export interface works {
 	title: string;
