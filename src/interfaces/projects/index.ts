@@ -16,10 +16,10 @@ export interface projects {
     items: project[];
 }
 
-export interface WorksProps {
+export interface ProjectProps {
     projects: projects;
 }
 
-export interface WorkCardProps {
+export interface ProjectCardProps {
     project: project;
 }
