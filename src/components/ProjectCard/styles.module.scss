@@ -99,7 +99,10 @@
 	font-size: 14px;
 	font-weight: normal;
 	color: $dark-blue-grey;
-	margin-left: 8px;
+}
+
+.iconWrapper {
+	margin-right: 8px;
 }
 
 @media only screen and (max-width: $breakpoint-xl) {

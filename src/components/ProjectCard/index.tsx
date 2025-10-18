@@ -30,7 +30,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 						{hardSkills.map((hardSkill: hardSkill, index: number) => (
 							<li className={styles.hardSkill} key={index}>
 								{hardSkill.icon && (
-									<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+									<div className={styles.iconWrapper}>
+										<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+									</div>
 								)}
 								<span className={styles.hardSkillTitle}>{hardSkill.title}</span>
 							</li>

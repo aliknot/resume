@@ -27,7 +27,9 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 											<Box key={index}>
 												<div className={styles.box}>
 													{hardSkill.icon && (
-														<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+														<div className={styles.iconWrapper}>
+															<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+														</div>
 													)}
 													<span>{hardSkill.title}</span>
 												</div>
