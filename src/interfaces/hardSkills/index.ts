@@ -1,5 +1,5 @@
 export type hardSkill = {
-	icon: string;
+	icon?: string;
 	title: string;
 };
 

@@ -26,7 +26,9 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 										{hardSkills.items.map((hardSkill: hardSkill, index: number) => (
 											<Box key={index}>
 												<div className={styles.box}>
-													<Image src={hardSkill.icon} alt={hardSkill.title} width={26} height={26} />{' '}
+													{hardSkill.icon && (
+														<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+													)}
 													<span>{hardSkill.title}</span>
 												</div>
 											</Box>

@@ -29,7 +29,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 					<ul className={styles.hardSkills}>
 						{hardSkills.map((hardSkill: hardSkill, index: number) => (
 							<li className={styles.hardSkill} key={index}>
-								<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+								{hardSkill.icon && (
+									<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+								)}
 								<span className={styles.hardSkillTitle}>{hardSkill.title}</span>
 							</li>
 						))}
