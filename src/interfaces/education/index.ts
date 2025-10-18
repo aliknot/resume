@@ -5,7 +5,7 @@ export type degree = {
 	type: string;
 	grade: string;
 	science: string;
-	icon: string;
+	icon?: string;
 	date: date;
 };
 

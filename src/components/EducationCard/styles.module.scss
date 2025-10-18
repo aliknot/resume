@@ -25,10 +25,13 @@
 }
 
 .details {
-	margin-left: 24px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+}
+
+.iconWrapper {
+	margin-right: 24px;
 }
 
 .name {

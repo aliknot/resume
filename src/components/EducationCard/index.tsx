@@ -14,7 +14,13 @@ const EducationCard = ({ degree }: EducationCardProps) => {
 				<span className={styles.grade}>{grade}</span>
 			</header>
 			<main className={styles.main}>
-				<Image src={degree.icon} width={75} height={75} alt={name} />
+				{
+					degree.icon && (
+						<div className={styles.iconWrapper}>
+							<Image className={styles.icon} src={degree.icon} width={75} height={75} alt={name} />
+						</div>
+					)
+				}
 				<div className={styles.details}>
 					<h5 className={styles.name}>{name}</h5>
 					<h6 className={styles.type}>{type}</h6>
