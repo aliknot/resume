@@ -1,7 +1,18 @@
 .whiteSection {
 	width: 100%;
 	padding: 64px 128px;
-	background-color: $white;
+	background: linear-gradient(135deg, #ffffff 0%, #fdfdff 100%);
+	position: relative;
+	
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 1px;
+		background: linear-gradient(90deg, transparent 0%, rgba(202, 204, 228, 0.3) 50%, transparent 100%);
+	}
 }
 .wrapper {
 	max-width: 1400px;

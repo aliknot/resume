@@ -1,7 +1,9 @@
 .graySection {
 	width: 100%;
 	padding: 64px 128px;
-	background-color: #E0E0E0;
+	background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+	border-top: 1px solid rgba(202, 204, 228, 0.3);
+	border-bottom: 1px solid rgba(202, 204, 228, 0.3);
 }
 .wrapper {
 	max-width: 1400px;
