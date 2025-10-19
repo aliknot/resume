@@ -26,7 +26,11 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 										{hardSkills.items.map((hardSkill: hardSkill, index: number) => (
 											<Box key={index}>
 												<div className={styles.box}>
-													<Image src={hardSkill.icon} alt={hardSkill.title} width={26} height={26} />{' '}
+													{hardSkill.icon && (
+														<div className={styles.iconWrapper}>
+															<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+														</div>
+													)}
 													<span>{hardSkill.title}</span>
 												</div>
 											</Box>
@@ -56,7 +60,6 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 						<h3 className={styles.myWorkTitle}>
 							My <span className={styles.bluePurple}>Education</span>
 						</h3>
-						<h4 className={styles.skillsTitle}>{education.title}</h4>
 						{education.items.length
 							? education.items.map((degree: degree, index: number) => <EducationCard key={index} degree={degree} />)
 							: null}

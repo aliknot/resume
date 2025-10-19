@@ -1,17 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import { WorkCardProps } from '../../interfaces/works';
+import { ProjectCardProps } from '../../interfaces/projects';
 import { hardSkill } from '../../interfaces/hardSkills';
 import styles from './styles.module.scss';
 
-const WorkCard = ({ work }: WorkCardProps) => {
-	const { date, location, type, title, description, icon, link, jobTitle, hardSkills, bulletPoints } = work;
+const ProjectCard = ({ project }: ProjectCardProps) => {
+	const { date, title, description, icon, link, role, hardSkills, bulletPoints } = project;
 	return (
-		<div className={styles.workCard}>
+		<div className={styles.projectCard}>
 			<div className={styles.top}>
 				<header className={styles.header}>
 					<span className={styles.date}>{`${date.start} - ${date.finish}`}</span>
-					<span className={styles.location}>{`${location ? `${location} - ` : ''}${type}`}</span>
 				</header>
 				<h5 className={styles.title}>{title}</h5>
 				<h6 className={styles.description}>{description}</h6>
@@ -25,7 +24,7 @@ const WorkCard = ({ work }: WorkCardProps) => {
 				) : null}
 			</div>
 			<div className={styles.bottom}>
-				<h5 className={styles.jobTitle}>{jobTitle}</h5>
+				<h5 className={styles.role}>{role}</h5>
 				{bulletPoints && bulletPoints.length > 0 && (
 					<div className={styles.bulletPointsSection}>
 						<ul className={styles.bulletPoints}>
@@ -57,4 +56,4 @@ const WorkCard = ({ work }: WorkCardProps) => {
 	);
 };
 
-export default WorkCard;
+export default ProjectCard;

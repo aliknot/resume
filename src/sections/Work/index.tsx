@@ -12,7 +12,6 @@ const Work = ({ works }: WorksProps) => {
 				<h3 className={styles.workTitle}>
 					Some of My Recent <span className={styles.bluePurple}>Works</span>
 				</h3>
-				<h4 className={styles.workSubtitle}>{works.title}</h4>
 				{works.items.length ? (
 					<div className={styles.workCardsWrapper}>
 						{works.items.map((work: work, index: number) => (
