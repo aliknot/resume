@@ -40,12 +40,10 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "Pandas",
-						"icon": "/assets/images/hard-skills/pandas.jpg"
+						"title": "Pandas"
 					},
 					{
-						"title": "NLTK",
-						"icon": "/assets/images/hard-skills/nltk.jpg"
+						"title": "NLTK"
 					}
 				]
 			},
@@ -61,20 +59,16 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "Pandas",
-						"icon": "/assets/images/hard-skills/pandas.jpg"
+						"title": "Pandas"
 					},
 					{
-						"title": "NLTK",
-						"icon": "/assets/images/hard-skills/nltk.jpg"
+						"title": "NLTK"
 					},
 					{
-						"title": "Scikit-learn",
-						"icon": "/assets/images/hard-skills/sklearn.jpg"
+						"title": "Scikit-learn"
 					},
 					{
-						"title": "Matplotlib",
-						"icon": "/assets/images/hard-skills/matplotlib.jpg"
+						"title": "Matplotlib"
 					}
 				]
 			},
@@ -90,20 +84,16 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "Scikit-learn",
-						"icon": "/assets/images/hard-skills/sklearn.jpg"
+						"title": "Scikit-learn"
 					},
 					{
-						"title": "TensorFlow",
-						"icon": "/assets/images/hard-skills/tensorflow.jpg"
+						"title": "TensorFlow"
 					},
 					{
-						"title": "Keras",
-						"icon": "/assets/images/hard-skills/keras.jpg"
+						"title": "Keras"
 					},
 					{
-						"title": "Scikeras",
-						"icon": "/assets/images/hard-skills/scikeras.jpg"
+						"title": "Scikeras"
 					}
 				]
 			},
@@ -119,20 +109,16 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "NumPy",
-						"icon": "/assets/images/hard-skills/numpy.jpg"
+						"title": "NumPy"
 					},
 					{
-						"title": "Pandas",
-						"icon": "/assets/images/hard-skills/pandas.jpg"
+						"title": "Pandas"
 					},
 					{
-						"title": "Scikit-learn",
-						"icon": "/assets/images/hard-skills/sklearn.jpg"
+						"title": "Scikit-learn"
 					},
 					{
-						"title": "Matplotlib",
-						"icon": "/assets/images/hard-skills/matplotlib.jpg"
+						"title": "Matplotlib"
 					}
 				]
 			},
@@ -148,20 +134,16 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "TensorFlow",
-						"icon": "/assets/images/hard-skills/tensorflow.jpg"
+						"title": "TensorFlow"
 					},
 					{
-						"title": "Keras",
-						"icon": "/assets/images/hard-skills/keras.jpg"
+						"title": "Keras"
 					},
 					{
-						"title": "NumPy",
-						"icon": "/assets/images/hard-skills/numpy.jpg"
+						"title": "NumPy"
 					},
 					{
-						"title": "Matplotlib",
-						"icon": "/assets/images/hard-skills/matplotlib.jpg"
+						"title": "Matplotlib"
 					}
 				]
 			},
@@ -177,12 +159,10 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "NLTK",
-						"icon": "/assets/images/hard-skills/nltk.jpg"
+						"title": "NLTK"
 					},
 					{
-						"title": "Scikit-learn",
-						"icon": "/assets/images/hard-skills/sklearn.jpg"
+						"title": "Scikit-learn"
 					}
 				]
 			},
@@ -198,8 +178,7 @@
 				"link": "Git Link",
 				"hardSkills": [
 					{
-						"title": "Python",
-						"icon": "/assets/images/hard-skills/python.jpg"
+						"title": "Python"
 					}
 				]
 			}
@@ -222,12 +201,10 @@
 				"link": "",
 				"hardSkills": [
 					{
-						"title": "Python",
-						"icon": "/assets/images/hard-skills/python.jpg"
+						"title": "Python"
 					},
 					{
-						"title": "LLM",
-						"icon": "/assets/images/hard-skills/llm.jpg"
+						"title": "LLM"
 					}
 				]
 			},
@@ -245,16 +222,13 @@
 				"link": "",
 				"hardSkills": [
 					{
-						"title": "PHP",
-						"icon": "/assets/images/hard-skills/php.jpg"
+						"title": "PHP"
 					},
 					{
-						"title": "Laravel",
-						"icon": "/assets/images/hard-skills/laravel.jpg"
+						"title": "Laravel"
 					},
 					{
-						"title": "SQL",
-						"icon": "/assets/images/hard-skills/sql.jpg"
+						"title": "SQL"
 					}
 				]
 			},
@@ -286,8 +260,7 @@
 				"link": "",
 				"hardSkills": [
 					{
-						"title": "Python",
-						"icon": "/assets/images/hard-skills/python.jpg"
+						"title": "Python"		
 					}
 				]
 			}
