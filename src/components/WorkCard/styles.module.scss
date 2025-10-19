@@ -2,8 +2,9 @@
 	border: 1px solid $light-blue-grey;
 	background-color: $white;
 	border-radius: 24px;
-	width: calc(33% - 16px);
+	width: calc(33.333% - 16px);
 	margin: 8px;
+	flex: 0 0 auto;
 }
 
 .top {
@@ -154,15 +155,19 @@
 @media only screen and (max-width: $breakpoint-xl) {
 	.workCard {
 		width: calc(50% - 16px);
+		max-width: none;
 	}
 }
 @media only screen and (max-width: $breakpoint-md) {
 	.workCard {
-		min-width: 352px;
+		width: calc(100% - 16px);
+		max-width: 500px;
+		margin: 8px auto;
 	}
 }
 @media only screen and (max-width: $breakpoint-sm) {
 	.workCard {
-		min-width: 90%;
+		width: calc(100% - 16px);
+		margin: 8px;
 	}
 }
