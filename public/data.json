@@ -24,406 +24,349 @@
 				"icon": "linkedin",
 				"value": "mahdimi-miri-dev"
 			}
-	]
-},
-"projects": {
-	"items": [
-		{
-			"title": "IMDB Sentiment Analysis Pipeline",
-			"description": "A Python pipeline for cleaning and preprocessing movie reviews (removing HTML, normalization, and stemming) for sentiment analysis models.",
-			"date": {
-				"start": "2024",
-				"finish": "Done"
+		]
+	},
+	"projects": {
+		"items": [
+			{
+				"title": "IMDB Sentiment Analysis Pipeline",
+				"description": "A Python pipeline for cleaning and preprocessing movie reviews (removing HTML, normalization, and stemming) for sentiment analysis models.",
+				"date": {
+					"start": "2024",
+					"finish": "Done"
+				},
+				"role": "Data Preprocessing",
+				"icon": "/assets/images/works/project-imdb.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "Pandas",
+						"icon": "/assets/images/hard-skills/pandas.jpg"
+					},
+					{
+						"title": "NLTK",
+						"icon": "/assets/images/hard-skills/nltk.jpg"
+					}
+				]
 			},
-			"role": "Data Preprocessing",
-			"icon": "/assets/images/works/project-imdb.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "Pandas",
-					"icon": "/assets/images/hard-skills/pandas.jpg"
+			{
+				"title": "Spam Text Detection Model",
+				"description": "Classifies SMS spam using TF-IDF and a Naive Bayes model. Evaluated with Accuracy and Recall metrics.",
+				"date": {
+					"start": "2024",
+					"finish": "Done"
 				},
-				{
-					"title": "NLTK",
-					"icon": "/assets/images/hard-skills/nltk.jpg"
-				}
-			]
-		},
-		{
-			"title": "Spam Text Detection Model",
-			"description": "Classifies SMS spam using TF-IDF and a Naive Bayes model. Evaluated with Accuracy and Recall metrics.",
-			"date": {
-				"start": "2024",
-				"finish": "Done"
+				"role": "Machine Learning",
+				"icon": "/assets/images/works/project-spam.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "Pandas",
+						"icon": "/assets/images/hard-skills/pandas.jpg"
+					},
+					{
+						"title": "NLTK",
+						"icon": "/assets/images/hard-skills/nltk.jpg"
+					},
+					{
+						"title": "Scikit-learn",
+						"icon": "/assets/images/hard-skills/sklearn.jpg"
+					},
+					{
+						"title": "Matplotlib",
+						"icon": "/assets/images/hard-skills/matplotlib.jpg"
+					}
+				]
 			},
-			"role": "Machine Learning",
-			"icon": "/assets/images/works/project-spam.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "Pandas",
-					"icon": "/assets/images/hard-skills/pandas.jpg"
+			{
+				"title": "NN Hyperparameter Tuning",
+				"description": "Optimizes a Keras neural network by comparing GridSearchCV and RandomizedSearchCV methods to find the best hyperparameters.",
+				"date": {
+					"start": "2024",
+					"finish": "Done"
 				},
-				{
-					"title": "NLTK",
-					"icon": "/assets/images/hard-skills/nltk.jpg"
-				},
-				{
-					"title": "Scikit-learn",
-					"icon": "/assets/images/hard-skills/sklearn.jpg"
-				},
-				{
-					"title": "Matplotlib",
-					"icon": "/assets/images/hard-skills/matplotlib.jpg"
-				}
-			]
-		},
-		{
-			"title": "NN Hyperparameter Tuning",
-			"description": "Optimizes a Keras neural network by comparing GridSearchCV and RandomizedSearchCV methods to find the best hyperparameters.",
-			"date": {
-				"start": "2024",
-				"finish": "Done"
+				"role": "Model Optimization",
+				"icon": "/assets/images/works/project-tuning.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "Scikit-learn",
+						"icon": "/assets/images/hard-skills/sklearn.jpg"
+					},
+					{
+						"title": "TensorFlow",
+						"icon": "/assets/images/hard-skills/tensorflow.jpg"
+					},
+					{
+						"title": "Keras",
+						"icon": "/assets/images/hard-skills/keras.jpg"
+					},
+					{
+						"title": "Scikeras",
+						"icon": "/assets/images/hard-skills/scikeras.jpg"
+					}
+				]
 			},
-			"role": "Model Optimization",
-			"icon": "/assets/images/works/project-tuning.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "Scikit-learn",
-					"icon": "/assets/images/hard-skills/sklearn.jpg"
+			{
+				"title": "Student Grade Prediction",
+				"description": "Implements a linear regression model to predict final student grades (G3) based on features like absences and previous grades.",
+				"date": {
+					"start": "2024",
+					"finish": "Done"
 				},
-				{
-					"title": "TensorFlow",
-					"icon": "/assets/images/hard-skills/tensorflow.jpg"
-				},
-				{
-					"title": "Keras",
-					"icon": "/assets/images/hard-skills/keras.jpg"
-				},
-				{
-					"title": "Scikeras",
-					"icon": "/assets/images/hard-skills/scikeras.jpg"
-				}
-			]
-		},
-		{
-			"title": "Student Grade Prediction",
-			"description": "Implements a linear regression model to predict final student grades (G3) based on features like absences and previous grades.",
-			"date": {
-				"start": "2024",
-				"finish": "Done"
+				"role": "Machine Learning",
+				"icon": "/assets/images/works/project-regression.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "NumPy",
+						"icon": "/assets/images/hard-skills/numpy.jpg"
+					},
+					{
+						"title": "Pandas",
+						"icon": "/assets/images/hard-skills/pandas.jpg"
+					},
+					{
+						"title": "Scikit-learn",
+						"icon": "/assets/images/hard-skills/sklearn.jpg"
+					},
+					{
+						"title": "Matplotlib",
+						"icon": "/assets/images/hard-skills/matplotlib.jpg"
+					}
+				]
 			},
-			"role": "Machine Learning",
-			"icon": "/assets/images/works/project-regression.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "NumPy",
-					"icon": "/assets/images/hard-skills/numpy.jpg"
+			{
+				"title": "MNIST Digit Recognition",
+				"description": "Builds and trains a deep neural network with TensorFlow/Keras to recognize handwritten digits from the MNIST dataset.",
+				"date": {
+					"start": "2025",
+					"finish": "Done"
 				},
-				{
-					"title": "Pandas",
-					"icon": "/assets/images/hard-skills/pandas.jpg"
-				},
-				{
-					"title": "Scikit-learn",
-					"icon": "/assets/images/hard-skills/sklearn.jpg"
-				},
-				{
-					"title": "Matplotlib",
-					"icon": "/assets/images/hard-skills/matplotlib.jpg"
-				}
-			]
-		},
-		{
-			"title": "MNIST Digit Recognition",
-			"description": "Builds and trains a deep neural network with TensorFlow/Keras to recognize handwritten digits from the MNIST dataset.",
-			"date": {
-				"start": "2025",
-				"finish": "Done"
+				"role": "Deep Learning",
+				"icon": "/assets/images/works/project-mnist.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "TensorFlow",
+						"icon": "/assets/images/hard-skills/tensorflow.jpg"
+					},
+					{
+						"title": "Keras",
+						"icon": "/assets/images/hard-skills/keras.jpg"
+					},
+					{
+						"title": "NumPy",
+						"icon": "/assets/images/hard-skills/numpy.jpg"
+					},
+					{
+						"title": "Matplotlib",
+						"icon": "/assets/images/hard-skills/matplotlib.jpg"
+					}
+				]
 			},
-			"role": "Deep Learning",
-			"icon": "/assets/images/works/project-mnist.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "TensorFlow",
-					"icon": "/assets/images/hard-skills/tensorflow.jpg"
+			{
+				"title": "BoW & TF-IDF Vectorization",
+				"description": "Demonstrates text feature extraction techniques; converts cleaned sentences into numerical vectors using both BoW and TF-IDF.",
+				"date": {
+					"start": "2025",
+					"finish": "Done"
 				},
-				{
-					"title": "Keras",
-					"icon": "/assets/images/hard-skills/keras.jpg"
-				},
-				{
-					"title": "NumPy",
-					"icon": "/assets/images/hard-skills/numpy.jpg"
-				},
-				{
-					"title": "Matplotlib",
-					"icon": "/assets/images/hard-skills/matplotlib.jpg"
-				}
-			]
-		},
-		{
-			"title": "BoW & TF-IDF Vectorization",
-			"description": "Demonstrates text feature extraction techniques; converts cleaned sentences into numerical vectors using both BoW and TF-IDF.",
-			"date": {
-				"start": "2025",
-				"finish": "Done"
+				"role": "Feature Extraction",
+				"icon": "/assets/images/works/project-vectorization.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "NLTK",
+						"icon": "/assets/images/hard-skills/nltk.jpg"
+					},
+					{
+						"title": "Scikit-learn",
+						"icon": "/assets/images/hard-skills/sklearn.jpg"
+					}
+				]
 			},
-			"role": "Feature Extraction",
-			"icon": "/assets/images/works/project-vectorization.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "NLTK",
-					"icon": "/assets/images/hard-skills/nltk.jpg"
+			{
+				"title": "Byte Pair Encoding (BPE) Impl",
+				"description": "Implements a simplified version of the Byte Pair Encoding (BPE) tokenization algorithm from scratch in Python.",
+				"date": {
+					"start": "2024",
+					"finish": "Done"
 				},
-				{
-					"title": "Scikit-learn",
-					"icon": "/assets/images/hard-skills/sklearn.jpg"
-				}
-			]
-		},
-		{
-			"title": "Byte Pair Encoding (BPE) Impl",
-			"description": "Implements a simplified version of the Byte Pair Encoding (BPE) tokenization algorithm from scratch in Python.",
-			"date": {
-				"start": "2024",
-				"finish": "Done"
-			},
-			"role": "Algorithm Implementation",
-			"icon": "/assets/images/works/project-bpe.jpg",
-			"link": "Git Link",
-			"hardSkills": [
-				{
-					"title": "Python",
-					"icon": "/assets/images/hard-skills/python.jpg"
-				}
-			]
-		}
-	]
-},
-"works": {
-	"title": "Machine-Learning and Text Analysis Projects ",
-	"items": [
-		{
-			"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
-			"description": "Text Processing",
-			"date": {
-				"start": "2025",
-				"finish": ""
-			},
-			"location": "Naples",
-			"type": " ",
-			"jobTitle": "Front-End Developer",
-			"icon": "/assets/images/works/malltina.jpg",
-			"link": "https://malltina.com",
-			"hardSkills": [
-				{
-					"title": "Next.js",
-					"icon": "/assets/images/hard-skills/next.jpg"
-				},
-				{
-					"title": "React.js",
-					"icon": "/assets/images/hard-skills/react.jpg"
-				},
-				{
-					"title": "Typescript",
-					"icon": "/assets/images/hard-skills/typescript.jpg"
-				},
-				{
-					"title": "Javascript",
-					"icon": "/assets/images/hard-skills/javascript.jpg"
-				},
-				{
-					"title": "Sass",
-					"icon": "/assets/images/hard-skills/sass.jpg"
-				}
-			]
-		},
-		{
-			"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
-			"description": "Text Processing",
-			"date": {
-				"start": "2025",
-				"finish": ""
-			},
-			"location": "Naples",
-			"type": " ",
-			"jobTitle": "Front-End Developer",
-			"icon": "/assets/images/works/malltina.jpg",
-			"link": "https://malltina.com",
-			"hardSkills": [
-				{
-					"title": "Next.js",
-					"icon": "/assets/images/hard-skills/next.jpg"
-				},
-				{
-					"title": "React.js",
-					"icon": "/assets/images/hard-skills/react.jpg"
-				},
-				{
-					"title": "Typescript",
-					"icon": "/assets/images/hard-skills/typescript.jpg"
-				},
-				{
-					"title": "Javascript",
-					"icon": "/assets/images/hard-skills/javascript.jpg"
-				},
-				{
-					"title": "Sass",
-					"icon": "/assets/images/hard-skills/sass.jpg"
-				}
-			]
-		},
-		{
-			"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
-			"description": "Text Processing",
-			"date": {
-				"start": "2025",
-				"finish": ""
-			},
-			"location": "Naples",
-			"type": " ",
-			"jobTitle": "Front-End Developer",
-			"icon": "/assets/images/works/malltina.jpg",
-			"link": "https://malltina.com",
-			"hardSkills": [
-				{
-					"title": "Next.js",
-					"icon": "/assets/images/hard-skills/next.jpg"
-				},
-				{
-					"title": "React.js",
-					"icon": "/assets/images/hard-skills/react.jpg"
-				},
-				{
-					"title": "Typescript",
-					"icon": "/assets/images/hard-skills/typescript.jpg"
-				},
-				{
-					"title": "Javascript",
-					"icon": "/assets/images/hard-skills/javascript.jpg"
-				},
-				{
-					"title": "Sass",
-					"icon": "/assets/images/hard-skills/sass.jpg"
-				}
-			]
-		},
-		{
-			"title": "Text Preprocessing and Vectorization using NLTK and Scikit-learn",
-			"description": "Text Processing",
-			"date": {
-				"start": "2025",
-				"finish": ""
-			},
-			"location": "Naples",
-			"type": " ",
-			"jobTitle": "Front-End Developer",
-			"icon": "/assets/images/works/malltina.jpg",
-			"link": "https://malltina.com",
-			"hardSkills": [
-				{
-					"title": "Next.js",
-					"icon": "/assets/images/hard-skills/next.jpg"
-				},
-				{
-					"title": "React.js",
-					"icon": "/assets/images/hard-skills/react.jpg"
-				},
-				{
-					"title": "Typescript",
-					"icon": "/assets/images/hard-skills/typescript.jpg"
-				},
-				{
-					"title": "Javascript",
-					"icon": "/assets/images/hard-skills/javascript.jpg"
-				},
-				{
-					"title": "Sass",
-					"icon": "/assets/images/hard-skills/sass.jpg"
-				}
-			]
-		}
-	]
-},
-"hardSkills": {
-	"title": "Hard Skills",
-	"items": [
-		{
-			"title": "Python"
-		},
-		{
-			"title": "R"
-		},
-		{
-			"title": "Machine-Learning"
-		},
-		{
-			"title": "Deep-Learning"
-		},
-		{
-			"title": "LLms"
-		},
-		{
-			"title": "Git"
-		},
-		{
-			"title": "Html"
-		},
-		{
-			"title": "CSS"
-		},
-		{
-			"title": "Statistical Analysis"
-		},
-		{
-			"title": "Text Mining"
-		},
-		{
-			"title": " Signal Processing"
-		}
-	]
-},
-"softSkills": {
-	"title": "Soft Skills",
-	"items": [
-		"Communication skills",
-		"Organizing skills",
-		"Teamwork",
-		"Accuracy",
-		"Punctuality",
-		"Creativity",
-		"Adaptability",
-		"Friendly Personality"
-	]
-},
-"education": {
-	"title": "Educational History",
-	"items": [
-		{
-			"name": "University of Naples Federico II",
-			"type": "Technical & Vocational",
-			"grade": "Master's Degree",
-			"science": "Data Science",
-			"date": {
-				"start": "2023",
-				"finish": "2026"
+				"role": "Algorithm Implementation",
+				"icon": "/assets/images/works/project-bpe.jpg",
+				"link": "Git Link",
+				"hardSkills": [
+					{
+						"title": "Python",
+						"icon": "/assets/images/hard-skills/python.jpg"
+					}
+				]
 			}
-		},
-		{
-			"name": "Islamic Azad University of Isfahan",
-			"type": "Technical & Vocational",
-			"grade": "Bacholer's Degree",
-			"science": "Computer Engineering",
-			"date": {
-				"start": "2019",
-				"finish": "2022"
+		]
+	},
+	"works": {
+		"title": "Professional Experience",
+		"items": [
+			{
+				"title": "University of Naples Federico II",
+				"description": "Researched LLM vulnerabilities using adversarial prompting and jailbreak strategies to improve model robustness and Responsible AI.",
+				"date": {
+					"start": "2025",
+					"finish": "2025"
+				},
+				"location": "Naples - Italy",
+				"type": " ",
+				"jobTitle": "Internship in research on LLM",
+				"icon": "/assets/images/works/unina.jpg",
+				"link": "",
+				"hardSkills": [
+					{
+						"title": "Python",
+						"icon": "/assets/images/hard-skills/python.jpg"
+					},
+					{
+						"title": "LLM",
+						"icon": "/assets/images/hard-skills/llm.jpg"
+					}
+				]
+			},
+			{
+				"title": "GoaLearn",
+				"description": "Engineered and optimized backend systems using PHP/Laravel and SQL, improving performance by 65% and stability by 20%.",
+				"date": {
+					"start": "2021",
+					"finish": "2022"
+				},
+				"location": "Isfahan",
+				"type": " ",
+				"jobTitle": "Back-End DEVELOPER",
+				"icon": "/assets/images/works/goalearn.jpg",
+				"link": "",
+				"hardSkills": [
+					{
+						"title": "PHP",
+						"icon": "/assets/images/hard-skills/php.jpg"
+					},
+					{
+						"title": "Laravel",
+						"icon": "/assets/images/hard-skills/laravel.jpg"
+					},
+					{
+						"title": "SQL",
+						"icon": "/assets/images/hard-skills/sql.jpg"
+					}
+				]
+			},
+			{
+				"title": "BEHPARD AZ CHEHELSOTON",
+				"description": "Designed, managed, and enhanced corporate websites, focusing on cross-browser compatibility, usability, and security.",
+				"date": {
+					"start": "2022",
+					"finish": ""
+				},
+				"location": "Isfahan",
+				"type": " ",
+				"jobTitle": "WEB DEVELOPER",
+				"icon": "/assets/images/works/behpardaz.jpg",
+				"link": "",
+				"hardSkills": []
+			},
+			{
+				"title": "Islamic Azad University Of Isfahan",
+				"description": "Assisted in teaching Python programming, led hands-on coding workshops, and supported curriculum delivery.",
+				"date": {
+					"start": "2021",
+					"finish": ""
+				},
+				"location": "Isfahan",
+				"type": " ",
+				"jobTitle": "TEACHER ASSISTANT",
+				"icon": "/assets/images/works/iau.jpg",
+				"link": "",
+				"hardSkills": [
+					{
+						"title": "Python",
+						"icon": "/assets/images/hard-skills/python.jpg"
+					}
+				]
 			}
-		}
-	]
-}
+		]
+	},
+	"hardSkills": {
+		"title": "Hard Skills",
+		"items": [
+			{
+				"title": "Python"
+			},
+			{
+				"title": "R"
+			},
+			{
+				"title": "Machine-Learning"
+			},
+			{
+				"title": "Deep-Learning"
+			},
+			{
+				"title": "LLms"
+			},
+			{
+				"title": "Git"
+			},
+			{
+				"title": "Html"
+			},
+			{
+				"title": "CSS"
+			},
+			{
+				"title": "Statistical Analysis"
+			},
+			{
+				"title": "Text Mining"
+			},
+			{
+				"title": " Signal Processing"
+			}
+		]
+	},
+	"softSkills": {
+		"title": "Soft Skills",
+		"items": [
+			"Communication skills",
+			"Organizing skills",
+			"Teamwork",
+			"Accuracy",
+			"Punctuality",
+			"Creativity",
+			"Adaptability",
+			"Friendly Personality"
+		]
+	},
+	"education": {
+		"title": "Educational History",
+		"items": [
+			{
+				"name": "University of Naples Federico II",
+				"type": "Technical & Vocational",
+				"grade": "Master's Degree",
+				"science": "Data Science",
+				"date": {
+					"start": "2023",
+					"finish": "2026"
+				}
+			},
+			{
+				"name": "Islamic Azad University of Isfahan",
+				"type": "Technical & Vocational",
+				"grade": "Bacholer's Degree",
+				"science": "Computer Engineering",
+				"date": {
+					"start": "2019",
+					"finish": "2022"
+				}
+			}
+		]
+	}
 }
