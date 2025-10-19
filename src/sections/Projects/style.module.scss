@@ -1,7 +1,9 @@
 .graySection {
 	width: 100%;
 	padding: 64px 128px;
-	background-color: #E0E0E0;
+	background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+	border-top: 1px solid rgba(202, 204, 228, 0.3);
+	border-bottom: 1px solid rgba(202, 204, 228, 0.3);
 }
 .wrapper {
 	max-width: 1400px;
@@ -24,10 +26,11 @@
 }
 .workCardsWrapper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: stretch;
 	flex-wrap: wrap;
-	margin: 0 -16px;
+	margin: 0 -8px;
+	gap: 0;
 }
 
 @media only screen and (max-width: $breakpoint-xl) {
@@ -38,9 +41,8 @@
 
 @media only screen and (max-width: $breakpoint-md) {
 	.workCardsWrapper {
-		flex-wrap: nowrap;
-		overflow-x: scroll;
-		scrollbar-width: thin;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 }
 @media only screen and (max-width: $breakpoint-sm) {

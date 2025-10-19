@@ -1,7 +1,18 @@
 .whiteSection {
 	width: 100%;
 	padding: 64px 128px;
-	background-color: $white;
+	background: linear-gradient(135deg, #ffffff 0%, #fdfdff 100%);
+	position: relative;
+	
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 1px;
+		background: linear-gradient(90deg, transparent 0%, rgba(202, 204, 228, 0.3) 50%, transparent 100%);
+	}
 }
 
 .boxesMobile {
@@ -24,14 +35,19 @@
 
 .aboutDetails {
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	min-height: 600px;
 }
 
 @media only screen and (max-width: $breakpoint-lg) {
 	.aboutDetails {
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
+		gap: 48px;
+		min-height: auto;
 	}
 
 	.whiteSection {

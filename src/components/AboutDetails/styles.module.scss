@@ -3,9 +3,9 @@
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	width: 535px;
+	flex: 1;
 	max-width: 50%;
-	margin-right: 16px;
+	min-width: 400px;
 }
 
 .headingTitle {
@@ -57,8 +57,34 @@
 }
 
 @media only screen and (max-width: $breakpoint-lg) {
+	.container {
+		max-width: 100%;
+		min-width: auto;
+		text-align: center;
+	}
+
+	.headingTitle {
+		font-size: 48px;
+		margin-bottom: 32px;
+	}
+
+	.headingSubTitle {
+		font-size: 20px;
+	}
+
 	.boxes {
 		flex-direction: row;
+	}
+}
+
+@media only screen and (max-width: $breakpoint-md) {
+	.headingTitle {
+		font-size: 36px;
+		margin-bottom: 24px;
+	}
+
+	.headingSubTitle {
+		font-size: 18px;
 	}
 }
 
