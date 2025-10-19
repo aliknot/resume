@@ -39,33 +39,34 @@
 				"role": "Front-End Developer",
 				"icon": "/assets/images/works/malltina.jpg",
 				"link": "https://malltina.com",
+				"bulletPoints": [
+					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
+					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
+					"Maintained graphic standards and branding throughout the product's interfaces using base components",
+					"Improved code base quality and performance optimization",
+					"Rewrote a complete new version of the search page, along with performance optimizations"
+				],
 				"hardSkills": [
 					{
-						"title": "Next.js",
-						"icon": "/assets/images/hard-skills/next.jpg"
+						"title": "Next.js"
 					},
 					{
-						"title": "React.js",
-						"icon": "/assets/images/hard-skills/react.jpg"
+						"title": "React.js"
 					},
 					{
-						"title": "Typescript",
-						"icon": "/assets/images/hard-skills/typescript.jpg"
+						"title": "Typescript"
 					},
 					{
-						"title": "Javascript",
-						"icon": "/assets/images/hard-skills/javascript.jpg"
+						"title": "Javascript"
 					},
 					{
-						"title": "Sass",
-						"icon": "/assets/images/hard-skills/sass.jpg"
+						"title": "Sass"
 					}
 				]
 			}
 		]
 	},
 	"works": {
-		"title": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.",
 		"items": [
 			{
 				"title": "Malltina",
@@ -79,26 +80,29 @@
 				"jobTitle": "Front-End Developer",
 				"icon": "/assets/images/works/malltina.jpg",
 				"link": "https://malltina.com",
+				"bulletPoints": [
+					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
+					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
+					"Mentored 2 junior front-end developers who wanted to get a deep understanding of React.js and Next.js",
+					"Maintained graphic standards and branding throughout the product's interfaces using base components",
+					"Improved code base quality and performance optimization",
+					"Rewrote a complete new version of the search page, along with performance optimizations"
+				],
 				"hardSkills": [
 					{
-						"title": "Next.js",
-						"icon": "/assets/images/hard-skills/next.jpg"
+						"title": "Next.js"
 					},
 					{
-						"title": "React.js",
-						"icon": "/assets/images/hard-skills/react.jpg"
+						"title": "React.js"
 					},
 					{
-						"title": "Typescript",
-						"icon": "/assets/images/hard-skills/typescript.jpg"
+						"title": "Typescript"
 					},
 					{
-						"title": "Javascript",
-						"icon": "/assets/images/hard-skills/javascript.jpg"
+						"title": "Javascript"
 					},
 					{
-						"title": "Sass",
-						"icon": "/assets/images/hard-skills/sass.jpg"
+						"title": "Sass"
 					}
 				]
 			},
@@ -114,14 +118,18 @@
 				"jobTitle": "Front-End Developer",
 				"icon": "/assets/images/works/limoonline.jpg",
 				"link": "https://limoonline.ir",
+				"bulletPoints": [
+					"Developed responsive landing page for virtual classroom platform",
+					"Implemented interactive UI components using React.js",
+					"Optimized page loading speed and user experience",
+					"Collaborated with design team to ensure pixel-perfect implementation"
+				],
 				"hardSkills": [
 					{
-						"title": "React.js",
-						"icon": "/assets/images/hard-skills/react.jpg"
+						"title": "React.js"
 					},
 					{
-						"title": "Sass",
-						"icon": "/assets/images/hard-skills/sass.jpg"
+						"title": "Sass"
 					}
 				]
 			},
@@ -137,14 +145,18 @@
 				"jobTitle": "Front-End Developer",
 				"icon": "/assets/images/works/aramicmedtour.png",
 				"link": "https://aramicmedtour.com",
+				"bulletPoints": [
+					"Built comprehensive health tourism platform with booking system",
+					"Developed multi-language support for international patients",
+					"Implemented secure payment gateway integration",
+					"Created admin dashboard for managing medical packages and bookings"
+				],
 				"hardSkills": [
 					{
-						"title": "Next.js",
-						"icon": "/assets/images/hard-skills/next.jpg"
+						"title": "Next.js"
 					},
 					{
-						"title": "React.js",
-						"icon": "/assets/images/hard-skills/react.jpg"
+						"title": "React.js"
 					}
 				]
 			},
@@ -160,26 +172,28 @@
 				"jobTitle": "PHP Developer",
 				"icon": "/assets/images/works/limoonline.jpg",
 				"link": "",
+				"bulletPoints": [
+					"Developed custom reservation system for barbershop appointments",
+					"Built customer management system with appointment history",
+					"Implemented email notifications for appointment confirmations",
+					"Created responsive design for mobile and desktop users",
+					"Integrated payment processing for online bookings"
+				],
 				"hardSkills": [
 					{
-						"title": "PHP",
-						"icon": "/assets/images/hard-skills/php.jpg"
+						"title": "PHP"
 					},
 					{
-						"title": "My SQL",
-						"icon": "/assets/images/hard-skills/mysql.jpg"
+						"title": "My SQL"
 					},
 					{
-						"title": "Javascript",
-						"icon": "/assets/images/hard-skills/javascript.jpg"
+						"title": "Javascript"
 					},
 					{
-						"title": "Html",
-						"icon": "/assets/images/hard-skills/html.jpg"
+						"title": "Html"
 					},
 					{
-						"title": "CSS",
-						"icon": "/assets/images/hard-skills/css.jpg"
+						"title": "CSS"
 					}
 				]
 			}
@@ -189,48 +203,37 @@
 		"title": "Hard Skills",
 		"items": [
 			{
-				"title": "Next.js",
-				"icon": "/assets/images/hard-skills/next.jpg"
+				"title": "Next.js"
 			},
 			{
-				"title": "React.js",
-				"icon": "/assets/images/hard-skills/react.jpg"
+				"title": "React.js"
 			},
 			{
-				"title": "Typescript",
-				"icon": "/assets/images/hard-skills/typescript.jpg"
+				"title": "Typescript"
 			},
 			{
-				"title": "Javascript",
-				"icon": "/assets/images/hard-skills/javascript.jpg"
+				"title": "Javascript"
 			},
 			{
-				"title": "Sass",
-				"icon": "/assets/images/hard-skills/sass.jpg"
+				"title": "Sass"
 			},
 			{
-				"title": "Git",
-				"icon": "/assets/images/hard-skills/git.jpg"
+				"title": "Git"
 			},
 			{
-				"title": "Html",
-				"icon": "/assets/images/hard-skills/html.jpg"
+				"title": "Html"
 			},
 			{
-				"title": "CSS",
-				"icon": "/assets/images/hard-skills/css.jpg"
+				"title": "CSS"
 			},
 			{
-				"title": "jQuery",
-				"icon": "/assets/images/hard-skills/jquery.jpg"
+				"title": "jQuery"
 			},
 			{
-				"title": "PHP",
-				"icon": "/assets/images/hard-skills/php.jpg"
+				"title": "PHP"
 			},
 			{
-				"title": "My SQL",
-				"icon": "/assets/images/hard-skills/mysql.jpg"
+				"title": "My SQL"
 			}
 		]
 	},
