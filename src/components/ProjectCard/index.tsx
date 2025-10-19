@@ -26,18 +26,19 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 			<div className={styles.bottom}>
 				<h5 className={styles.role}>{role}</h5>
 				{hardSkills.length ? (
-					<ul className={styles.hardSkills}>
-						{hardSkills.map((hardSkill: hardSkill, index: number) => (
-							<li className={styles.hardSkill} key={index}>
-								{hardSkill.icon && (
-									<div className={styles.iconWrapper}>
-										<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
-									</div>
-								)}
-								<span className={styles.hardSkillTitle}>{hardSkill.title}</span>
-							</li>
-						))}
-					</ul>
+					<div className={styles.skillsSection}>
+						<h6 className={styles.skillsTitle}>Skills</h6>
+						<ul className={styles.hardSkills}>
+							{hardSkills.map((hardSkill: hardSkill, index: number) => (
+								<li className={styles.hardSkill} key={index}>
+									{hardSkill.icon && (
+										<Image src={hardSkill.icon} width={16} height={16} alt={hardSkill.title} />
+									)}
+									<span className={styles.hardSkillTitle}>{hardSkill.title}</span>
+								</li>
+							))}
+						</ul>
+					</div>
 				) : null}
 			</div>
 		</div>
