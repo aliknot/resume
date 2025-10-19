@@ -60,7 +60,6 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 						<h3 className={styles.myWorkTitle}>
 							My <span className={styles.bluePurple}>Education</span>
 						</h3>
-						<h4 className={styles.skillsTitle}>{education.title}</h4>
 						{education.items.length
 							? education.items.map((degree: degree, index: number) => <EducationCard key={index} degree={degree} />)
 							: null}

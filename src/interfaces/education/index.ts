@@ -10,7 +10,6 @@ export type degree = {
 };
 
 export interface education {
-	title: string;
 	items: degree[];
 }
 

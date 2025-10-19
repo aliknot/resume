@@ -14,7 +14,6 @@ export type work = {
 }
 
 export interface works {
-	title: string;
 	items: work[];
 }
 
