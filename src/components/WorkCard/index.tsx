@@ -5,7 +5,7 @@ import { hardSkill } from '../../interfaces/hardSkills';
 import styles from './styles.module.scss';
 
 const WorkCard = ({ work }: WorkCardProps) => {
-	const { date, location, type, title, description, icon, link, jobTitle, hardSkills } = work;
+	const { date, location, type, title, description, icon, link, jobTitle, hardSkills, bulletPoints } = work;
 	return (
 		<div className={styles.workCard}>
 			<div className={styles.top}>
@@ -26,6 +26,17 @@ const WorkCard = ({ work }: WorkCardProps) => {
 			</div>
 			<div className={styles.bottom}>
 				<h5 className={styles.jobTitle}>{jobTitle}</h5>
+				{bulletPoints && bulletPoints.length > 0 && (
+					<div className={styles.bulletPointsSection}>
+						<ul className={styles.bulletPoints}>
+							{bulletPoints.map((point: string, index: number) => (
+								<li className={styles.bulletPoint} key={index}>
+									{point}
+								</li>
+							))}
+						</ul>
+					</div>
+				)}
 				{hardSkills.length ? (
 					<div className={styles.skillsSection}>
 						<h6 className={styles.skillsTitle}>Skills</h6>

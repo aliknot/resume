@@ -119,6 +119,38 @@
 	margin-right: 8px;
 }
 
+.bulletPointsSection {
+	margin-bottom: 24px;
+}
+
+.bulletPoints {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-left: 16px;
+}
+
+.bulletPoint {
+	position: relative;
+	font-size: 14px;
+	font-weight: normal;
+	color: $dark-blue-grey;
+	margin-bottom: 8px;
+	line-height: 1.5;
+
+	&:before {
+		content: '•';
+		position: absolute;
+		left: -16px;
+		color: $dark-blue-grey;
+		font-weight: bold;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
 @media only screen and (max-width: $breakpoint-xl) {
 	.workCard {
 		width: calc(50% - 16px);

@@ -11,6 +11,7 @@ export type work = {
 	icon: string;
 	link: string;
 	hardSkills: hardSkill[];
+	bulletPoints?: string[];
 }
 
 export interface works {

@@ -9,6 +9,7 @@ export type project = {
     icon: string;
     link: string;
     hardSkills: hardSkill[];
+    bulletPoints?: string[];
 }
 
 export interface projects {
