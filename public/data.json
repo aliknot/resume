@@ -2,28 +2,33 @@
 	"about": {
 		"firstname": "Alireza",
 		"lastname": "Fazel",
-		"jobTitle": "Front End Developer",
-		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
+		"jobTitle": "Data Scientist & Software Engineer",
+		"description": "I'm a Data Science student passionate about Machine Learning and Deep Learning, supported by over three years of foundational Software Engineering experience. My expertise lies in analyzing complex data and developing diverse machine learning models—including predictive, classification, and deep learning solutions—optimizing neural networks using Python, TensorFlow, and PyTorch. I focus on building high-performing models and extracting meaningful insights from challenging datasets.",
 		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
 			{
 				"icon": "location",
-				"value": "Tehran - Isfahan"
+				"value": "Italy, Naples"
 			},
 			{
 				"icon": "phone",
-				"value": "+98 9338234878",
-				"link": "tel: +98 9338234878"
+				"value": "+39 3347089250",
+				"link": "tel: +39 3347089250"
 			},
 			{
 				"icon": "mail",
-				"value": "Alirezafazel379@gmail.com",
+				"value": "alirezafazel379@gmail.com",
 				"link": "mailto: alirezafazel379@gmail.com"
 			},
 			{
 				"icon": "linkedin",
 				"value": "alireza-fazel-863204199",
 				"link": "https://www.linkedin.com/in/alireza-fazel-863204199/"
+			},
+			{
+				"icon": "github",
+				"value": "GitHub: aliknot",
+				"link": "https://github.com/aliknot"
 			}
 		]
 	},
