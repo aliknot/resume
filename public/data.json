@@ -259,6 +259,16 @@
 		"title": "Educational History",
 		"items": [
 			{
+				"name": "Federico II University of Naples",
+				"grade": "Master's Degree",
+				"science": "Data Science",
+				"icon": "/assets/images/education/federico-ii.jpeg",
+				"date": {
+					"start": "2023",
+					"finish": "2026"
+				}
+			},
+			{
 				"name": "Shamsipour Tehran",
 				"type": "Technical & Vocational",
 				"grade": "Bachelor's Degree",
