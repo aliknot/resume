@@ -8,8 +8,8 @@ export type work = {
 	location: string;
 	type: string;
 	jobTitle: string;
-	icon: string;
-	link: string;
+	icon?: string;
+	link?: string;
 	hardSkills: hardSkill[];
 	bulletPoints?: string[];
 }
