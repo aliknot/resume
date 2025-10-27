@@ -35,37 +35,62 @@
 	"projects": {
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
-				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
-				},
-				"role": "Front-End Developer",
-				"icon": "/assets/images/works/malltina.jpg",
-				"link": "https://malltina.com",
+				"title": "Facial Expression Recognition",
+				"description": "A deep learning project to recognize facial expressions using CNNs and advanced computer vision techniques.",
+			
+				"role": "Data Scientist",
+				"link": "https://github.com/aliknot/AffectNet_Facial_Expression_Recognition.git",
 				"bulletPoints": [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Benchmarked ResNet18 and ResNet50 architectures for 8-class emotion classification (Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, Surprise)",
+					"Developed computer vision pipeline using AffectNet dataset with 96x96 pixel face-cropped images",
+					"Built binary and multi-class classification models for comparative performance analysis",
+					"Applied data augmentation and oversampling techniques with 70/20/10 train/validation/test splits",
+					"Implemented T-SNE visualization for high-dimensional feature space analysis",
+					"Conducted data quality analysis including color bias, brightness/contrast, and sharpness metrics",
+					"Created end-to-end Jupyter Notebook pipeline for Data Mining coursework"
 				],
 				"hardSkills": [
 					{
-						"title": "Next.js"
+						"title": "Deep Learning"
 					},
 					{
-						"title": "React.js"
+						"title": "Computer Vision"
 					},
 					{
-						"title": "Typescript"
+						"title": "CNNs"
 					},
 					{
-						"title": "Javascript"
+						"title": "ResNet18"
 					},
 					{
-						"title": "Sass"
+						"title": "ResNet50"
+					},
+					{
+						"title": "Keras"
+					},
+					{
+						"title": "TensorFlow"
+					},
+					{
+						"title": "Python"
+					},
+					{
+						"title": "Jupyter Notebooks"
+					},
+					{
+						"title": "T-SNE"
+					},
+					{
+						"title": "Data Augmentation"
+					},
+					{
+						"title": "Data Visualization"
+					},
+					{
+						"title": "AffectNet Dataset"
+					},
+					{
+						"title": "Data Mining"
 					}
 				]
 			}
