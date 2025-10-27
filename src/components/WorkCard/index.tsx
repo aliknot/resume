@@ -50,10 +50,7 @@ const WorkCard = ({ work }: WorkCardProps) => {
 								<ul className={styles.hardSkills}>
 									{category.items.map((skill: skillItem, index: number) => (
 										<li className={styles.hardSkill} key={index}>
-											{skill.icon && (
-												<Image src={skill.icon} width={16} height={16} alt={skill.title} />
-											)}
-											<span className={styles.hardSkillTitle}>{skill.title}</span>
+											{skill.title}
 										</li>
 									))}
 								</ul>

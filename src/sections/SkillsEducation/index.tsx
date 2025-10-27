@@ -2,7 +2,6 @@ import React from 'react';
 import { degree } from '../../interfaces/education';
 import EducationCard from '../../components/EducationCard';
 import { Skill, SkillCategory } from '../../interfaces/skills';
-import Image from 'next/image';
 import { SkillsEducationProps } from '../../interfaces/skillEducation';
 import Box from '../../core/Box';
 import styles from './style.module.scss';
@@ -24,11 +23,6 @@ const SkillsEducation = ({ skills, education }: SkillsEducationProps) => {
 										{skillCategory.items.map((skill: Skill, index: number) => (
 											<Box key={index}>
 												<div className={styles.box}>
-													{skill.icon && (
-														<div className={styles.iconWrapper}>
-															<Image src={skill.icon} width={26} height={26} alt={skill.title} />
-														</div>
-													)}
 													<span>{skill.title}</span>
 												</div>
 											</Box>

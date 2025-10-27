@@ -110,8 +110,7 @@
 .hardSkill {
 	display: inline-flex;
 	align-items: center;
-	gap: 4px;
-	padding: 6px 8px;
+	padding: 6px 12px;
 	border: 1px solid #cacce4;
 	border-radius: 6px;
 	transition: all 0.3s;
@@ -120,20 +119,6 @@
 	font-weight: 300;
 	margin-right: 8px;
 	margin-bottom: 8px;
-
-	img {
-		border-radius: 50%;
-	}
-}
-
-.hardSkillTitle {
-	font-size: inherit;
-	font-weight: inherit;
-	color: inherit;
-}
-
-.iconWrapper {
-	margin-right: 8px;
 }
 
 .bulletPointsSection {

@@ -1,6 +1,5 @@
 export type skillItem = {
     title: string;
-    icon?: string;
 }
 
 export type skillCategory = {

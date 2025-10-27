@@ -61,17 +61,11 @@
 	align-items: center;
 	flex-wrap: wrap;
 }
+
 .box {
 	display: flex;
 	align-items: center;
-
-	img {
-		border-radius: 50%;
-	}
-}
-
-.iconWrapper{
-	margin-right: 8px;
+	justify-content: center;
 }
 
 .education {
