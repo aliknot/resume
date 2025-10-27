@@ -7,7 +7,7 @@ export type project = {
     date?: date;
     role: string;
     icon?: string;
-    link: string;
+    link?: string;
     hardSkills: hardSkill[];
     bulletPoints?: string[];
 }
