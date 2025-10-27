@@ -174,33 +174,6 @@
 				]
 			},
 			{
-				"title": "Limoonline",
-				"description": "Virtual Classroom Landing Page",
-				"date": {
-					"start": "Feb 2022",
-					"finish": "Present"
-				},
-				"location": "",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "https://limoonline.ir",
-				"bulletPoints": [
-					"Developed responsive landing page for virtual classroom platform",
-					"Implemented interactive UI components using React.js",
-					"Optimized page loading speed and user experience",
-					"Collaborated with design team to ensure pixel-perfect implementation"
-				],
-				"hardSkills": [
-					{
-						"title": "React.js"
-					},
-					{
-						"title": "Sass"
-					}
-				]
-			},
-			{
 				"title": "Aramicmedtour",
 				"description": "Health Tour Web Application",
 				"date": {
@@ -224,43 +197,6 @@
 					},
 					{
 						"title": "React.js"
-					}
-				]
-			},
-			{
-				"title": "Gentleman Barbershop",
-				"description": "Barbershop Reservation Website",
-				"date": {
-					"start": "Jan 2020",
-					"finish": "Mar 2021"
-				},
-				"location": "",
-				"type": "Freelance",
-				"jobTitle": "PHP Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "",
-				"bulletPoints": [
-					"Developed custom reservation system for barbershop appointments",
-					"Built customer management system with appointment history",
-					"Implemented email notifications for appointment confirmations",
-					"Created responsive design for mobile and desktop users",
-					"Integrated payment processing for online bookings"
-				],
-				"hardSkills": [
-					{
-						"title": "PHP"
-					},
-					{
-						"title": "My SQL"
-					},
-					{
-						"title": "Javascript"
-					},
-					{
-						"title": "Html"
-					},
-					{
-						"title": "CSS"
 					}
 				]
 			}
