@@ -8,7 +8,7 @@ const Project = ({ projects }: ProjectProps) => {
 		<section className={styles.graySection} id='work'>
 			<div className={styles.wrapper}>
 				<h3 className={styles.workTitle}>
-					Some of My Recent <span className={styles.bluePurple}>Projects</span>
+					Projects
 				</h3>
 				{projects.items.length ? (
 					<div className={styles.workCardsWrapper}>
