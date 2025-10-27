@@ -215,7 +215,7 @@ export const resumeData: ResumeData = {
 	education: {
 		items: [
 			{
-				name: "Federico II University of Naples",
+				name: "University of Naples Federico II",
 				grade: "Master's Degree",
 				science: "Data Science",
 				icon: "/assets/images/education/federico-ii.jpeg",
