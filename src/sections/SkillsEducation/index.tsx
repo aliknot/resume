@@ -14,7 +14,7 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 				<div className={styles.skillsAndEducationContainer}>
 					<section className={styles.skills}>
 						<h3 className={styles.myWorkTitle}>
-							My <span className={styles.bluePurple}>Skills</span>
+							Skills
 						</h3>
 						<section className={styles.hardSkills}>
 							<>
@@ -56,7 +56,7 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 					</section>
 					<section className={styles.education}>
 						<h3 className={styles.myWorkTitle}>
-							My <span className={styles.bluePurple}>Education</span>
+							Education
 						</h3>
 						{education.items.length
 							? education.items.map((degree: degree, index: number) => <EducationCard key={index} degree={degree} />)
