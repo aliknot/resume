@@ -9,7 +9,7 @@ import styles from './styles.module.scss';
 
 
 const Home: NextPage = () => {
-	const { about, projects, works, hardSkills, softSkills, education } = data;
+	const { about, projects, works, skills, education } = data;
 
 	return (
 		<div className={styles.container}>
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 			<About about={about} />
 			<Projects projects={projects} />
 			<Work works={works} />
-			<SkillsEducation education={education} hardSkills={hardSkills} softSkills={softSkills} />
+			<SkillsEducation education={education} skills={skills} />
 		</div>
 	);
 };

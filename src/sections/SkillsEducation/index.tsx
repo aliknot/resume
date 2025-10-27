@@ -1,13 +1,13 @@
 import React from 'react';
 import { degree } from '../../interfaces/education';
 import EducationCard from '../../components/EducationCard';
-import { hardSkill } from '../../interfaces/hardSkills';
+import { Skill, SkillCategory } from '../../interfaces/skills';
 import Image from 'next/image';
 import { SkillsEducationProps } from '../../interfaces/skillEducation';
 import Box from '../../core/Box';
 import styles from './style.module.scss';
 
-const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationProps) => {
+const SkillsEducation = ({ skills, education }: SkillsEducationProps) => {
 	return (
 		<section className={styles.whiteSection} id='skills_education'>
 			<div className={styles.wrapper}>
@@ -16,43 +16,27 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 						<h3 className={styles.myWorkTitle}>
 							Skills
 						</h3>
-						<section className={styles.hardSkills}>
-							<>
-								<h4 className={styles.skillsTitle}>{hardSkills.title}</h4>
-								{hardSkills.items.length ? (
+						{skills.map((skillCategory: SkillCategory, categoryIndex: number) => (
+							<section key={categoryIndex} className={styles.skillCategory}>
+								<h4 className={styles.skillsTitle}>{skillCategory.title}</h4>
+								{skillCategory.items.length ? (
 									<div className={styles.boxes}>
-										{hardSkills.items.map((hardSkill: hardSkill, index: number) => (
+										{skillCategory.items.map((skill: Skill, index: number) => (
 											<Box key={index}>
 												<div className={styles.box}>
-													{hardSkill.icon && (
+													{skill.icon && (
 														<div className={styles.iconWrapper}>
-															<Image src={hardSkill.icon} width={26} height={26} alt={hardSkill.title} />
+															<Image src={skill.icon} width={26} height={26} alt={skill.title} />
 														</div>
 													)}
-													<span>{hardSkill.title}</span>
+													<span>{skill.title}</span>
 												</div>
 											</Box>
 										))}
 									</div>
 								) : null}
-							</>
-						</section>
-						<section className={styles.softSkills}>
-							<>
-								<h4 className={styles.skillsTitle}>{softSkills.title}</h4>
-								{softSkills.items.length ? (
-									<div className={styles.boxes}>
-										{softSkills.items.map((softSkill: string, index: number) => (
-											<Box key={index}>
-												<div className={styles.box}>
-													<span>{softSkill}</span>
-												</div>
-											</Box>
-										))}
-									</div>
-								) : null}
-							</>
-						</section>
+							</section>
+						))}
 					</section>
 					<section className={styles.education}>
 						<h3 className={styles.myWorkTitle}>

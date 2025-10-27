@@ -1,9 +1,7 @@
 import { education } from '../education';
-import { softSkills } from '../softSkills';
-import { hardSkills } from '../hardSkills';
+import { Skills } from '../skills';
 
 export interface SkillsEducationProps {
-	hardSkills: hardSkills;
-	softSkills: softSkills;
+	skills: Skills;
 	education: education;
 }

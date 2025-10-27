@@ -33,6 +33,14 @@
 	height: 100%;
 }
 
+.skillCategory {
+	margin-bottom: 48px;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
 .myWorkTitle {
 	font-size: 32px;
 	color: $dark-blue-grey;

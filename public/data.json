@@ -202,57 +202,179 @@
 			}
 		]
 	},
-	"hardSkills": {
-		"title": "Hard Skills",
-		"items": [
-			{
-				"title": "Next.js"
-			},
-			{
-				"title": "React.js"
-			},
-			{
-				"title": "Typescript"
-			},
-			{
-				"title": "Javascript"
-			},
-			{
-				"title": "Sass"
-			},
-			{
-				"title": "Git"
-			},
-			{
-				"title": "Html"
-			},
-			{
-				"title": "CSS"
-			},
-			{
-				"title": "jQuery"
-			},
-			{
-				"title": "PHP"
-			},
-			{
-				"title": "My SQL"
-			}
-		]
-	},
-	"softSkills": {
-		"title": "Soft Skills",
-		"items": [
-			"Communication skills",
-			"Organizing skills",
-			"Teamwork",
-			"Accuracy",
-			"Punctuality",
-			"Creativity",
-			"Adaptability",
-			"Friendly Personality"
-		]
-	},
+	"skills": [
+		{
+			"title": "Data Science & Machine Learning",
+			"items": [
+				{
+					"title": "Python"
+				},
+				{
+					"title": "Machine Learning"
+				},
+				{
+					"title": "Deep Learning"
+				},
+				{
+					"title": "Computer Vision"
+				},
+				{
+					"title": "Natural Language Processing"
+				},
+				{
+					"title": "TensorFlow"
+				},
+				{
+					"title": "PyTorch"
+				},
+				{
+					"title": "Keras"
+				},
+				{
+					"title": "Scikit-learn"
+				},
+				{
+					"title": "Pandas"
+				},
+				{
+					"title": "NumPy"
+				},
+				{
+					"title": "Data Analysis"
+				},
+				{
+					"title": "Data Visualization"
+				},
+				{
+					"title": "Jupyter Notebooks"
+				},
+				{
+					"title": "Statistical Analysis"
+				},
+				{
+					"title": "Neural Networks"
+				},
+				{
+					"title": "CNNs"
+				},
+				{
+					"title": "Model Optimization"
+				},
+				{
+					"title": "Feature Engineering"
+				},
+				{
+					"title": "Data Mining"
+				},
+				{
+					"title": "Large Language Models"
+				}
+			]
+		},
+		{
+			"title": "Software Development",
+			"items": [
+				{
+					"title": "JavaScript"
+				},
+				{
+					"title": "TypeScript"
+				},
+				{
+					"title": "React.js"
+				},
+				{
+					"title": "Next.js"
+				},
+				{
+					"title": "Node.js"
+				},
+				{
+					"title": "HTML"
+				},
+				{
+					"title": "CSS"
+				},
+				{
+					"title": "Sass"
+				},
+				{
+					"title": "Git"
+				},
+				{
+					"title": "GitHub"
+				},
+				{
+					"title": "RESTful APIs"
+				},
+				{
+					"title": "Micro-frontend Architecture"
+				},
+				{
+					"title": "Responsive Design"
+				},
+				{
+					"title": "Performance Optimization"
+				},
+				{
+					"title": "PHP"
+				},
+				{
+					"title": "MySQL"
+				},
+				{
+					"title": "jQuery"
+				},
+				{
+					"title": "Web Development"
+				},
+				{
+					"title": "Front-End Development"
+				}
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"items": [
+				{
+					"title": "Communication"
+				},
+				{
+					"title": "Teamwork"
+				},
+				{
+					"title": "Problem Solving"
+				},
+				{
+					"title": "Critical Thinking"
+				},
+				{
+					"title": "Mentoring"
+				},
+				{
+					"title": "Leadership"
+				},
+				{
+					"title": "Adaptability"
+				},
+				{
+					"title": "Time Management"
+				},
+				{
+					"title": "Attention to Detail"
+				},
+				{
+					"title": "Creativity"
+				},
+				{
+					"title": "Organization"
+				},
+				{
+					"title": "Research"
+				}
+			]
+		}
+	],
 	"education": {
 		"title": "Educational History",
 		"items": [
