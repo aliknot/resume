@@ -53,25 +53,11 @@ export const resumeData: ResumeData = {
 				skills: [
 					{
 						title: "Core Technologies",
-						items: [
-							{ title: "Python" },
-							{ title: "TensorFlow" },
-							{ title: "Keras" },
-							{ title: "Jupyter Notebooks" }
-						]
+						items: ["Python", "TensorFlow", "Keras", "Jupyter Notebooks"]
 					},
 					{
 						title: "Techniques",
-						items: [
-							{ title: "Deep Learning" },
-							{ title: "Computer Vision" },
-							{ title: "CNNs" },
-							{ title: "ResNet18" },
-							{ title: "ResNet50" },
-							{ title: "Data Augmentation" },
-							{ title: "T-SNE" },
-							{ title: "Data Mining" }
-						]
+						items: ["Deep Learning", "Computer Vision", "CNNs", "ResNet18", "ResNet50", "Data Augmentation", "T-SNE", "Data Mining"]
 					}
 				]
 			},
@@ -89,15 +75,7 @@ export const resumeData: ResumeData = {
 				skills: [
 					{
 						title: "Research & Analysis",
-						items: [
-							{ title: "NLP" },
-							{ title: "Large Language Models" },
-							{ title: "LLM Evaluation" },
-							{ title: "Metric Classification" },
-							{ title: "Research Methodology" },
-							{ title: "Evaluation Frameworks" },
-							{ title: "Data Analysis" }
-						]
+						items: ["NLP", "Large Language Models", "LLM Evaluation", "Metric Classification", "Research Methodology", "Evaluation Frameworks", "Data Analysis"]
 					}
 				]
 			}
@@ -128,22 +106,11 @@ export const resumeData: ResumeData = {
 				skills: [
 					{
 						title: "Technologies",
-						items: [
-							{ title: "Next.js" },
-							{ title: "React.js" },
-							{ title: "TypeScript" },
-							{ title: "JavaScript" },
-							{ title: "Sass" }
-						]
+						items: ["Next.js", "React.js", "TypeScript", "JavaScript", "Sass"]
 					},
 					{
 						title: "Practices",
-						items: [
-							{ title: "Micro-frontend Architecture" },
-							{ title: "Performance Optimization" },
-							{ title: "Mentoring" },
-							{ title: "Code Quality" }
-						]
+						items: ["Micro-frontend Architecture", "Performance Optimization", "Mentoring", "Code Quality"]
 					}
 				]
 			},
@@ -168,10 +135,7 @@ export const resumeData: ResumeData = {
 				skills: [
 					{
 						title: "Technologies",
-						items: [
-							{ title: "Next.js" },
-							{ title: "React.js" }
-						]
+						items: ["Next.js", "React.js"]
 					}
 				]
 			}
@@ -180,70 +144,15 @@ export const resumeData: ResumeData = {
 	skills: [
 		{
 			title: "Data Science & Machine Learning",
-			items: [
-				{ title: "Python" },
-				{ title: "Machine Learning" },
-				{ title: "Deep Learning" },
-				{ title: "Computer Vision" },
-				{ title: "Natural Language Processing" },
-				{ title: "TensorFlow" },
-				{ title: "PyTorch" },
-				{ title: "Keras" },
-				{ title: "Scikit-learn" },
-				{ title: "Pandas" },
-				{ title: "NumPy" },
-				{ title: "Data Analysis" },
-				{ title: "Data Visualization" },
-				{ title: "Jupyter Notebooks" },
-				{ title: "Statistical Analysis" },
-				{ title: "Neural Networks" },
-				{ title: "CNNs" },
-				{ title: "Model Optimization" },
-				{ title: "Feature Engineering" },
-				{ title: "Data Mining" },
-				{ title: "Large Language Models" }
-			]
+			items: ["Python", "Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Data Visualization", "Jupyter Notebooks", "Statistical Analysis", "Neural Networks", "CNNs", "Model Optimization", "Feature Engineering", "Data Mining", "Large Language Models"]
 		},
 		{
 			title: "Software Development",
-			items: [
-				{ title: "JavaScript" },
-				{ title: "TypeScript" },
-				{ title: "React.js" },
-				{ title: "Next.js" },
-				{ title: "Node.js" },
-				{ title: "HTML" },
-				{ title: "CSS" },
-				{ title: "Sass" },
-				{ title: "Git" },
-				{ title: "GitHub" },
-				{ title: "RESTful APIs" },
-				{ title: "Micro-frontend Architecture" },
-				{ title: "Responsive Design" },
-				{ title: "Performance Optimization" },
-				{ title: "PHP" },
-				{ title: "MySQL" },
-				{ title: "jQuery" },
-				{ title: "Web Development" },
-				{ title: "Front-End Development" }
-			]
+			items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "HTML", "CSS", "Sass", "Git", "GitHub", "RESTful APIs", "Micro-frontend Architecture", "Responsive Design", "Performance Optimization", "PHP", "MySQL", "jQuery", "Web Development", "Front-End Development"]
 		},
 		{
 			title: "Soft Skills",
-			items: [
-				{ title: "Communication" },
-				{ title: "Teamwork" },
-				{ title: "Problem Solving" },
-				{ title: "Critical Thinking" },
-				{ title: "Mentoring" },
-				{ title: "Leadership" },
-				{ title: "Adaptability" },
-				{ title: "Time Management" },
-				{ title: "Attention to Detail" },
-				{ title: "Creativity" },
-				{ title: "Organization" },
-				{ title: "Research" }
-			]
+			items: ["Communication", "Teamwork", "Problem Solving", "Critical Thinking", "Mentoring", "Leadership", "Adaptability", "Time Management", "Attention to Detail", "Creativity", "Organization", "Research"]
 		}
 	],
 	education: {

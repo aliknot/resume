@@ -1,10 +1,6 @@
-export type Skill = {
-	title: string;
-};
-
 export interface SkillCategory {
 	title: string;
-	items: Skill[];
+	items: string[];
 }
 
 export type Skills = SkillCategory[];

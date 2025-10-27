@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { WorkCardProps } from '../../interfaces/works';
-import { skillItem, skillCategory } from '../../interfaces/skillCategory';
+import { skillCategory } from '../../interfaces/skillCategory';
 import styles from './styles.module.scss';
 
 const WorkCard = ({ work }: WorkCardProps) => {
@@ -48,9 +48,9 @@ const WorkCard = ({ work }: WorkCardProps) => {
 							<div key={catIndex} className={styles.skillCategory}>
 								<h6 className={styles.categoryTitle}>{category.title}</h6>
 								<ul className={styles.hardSkills}>
-									{category.items.map((skill: skillItem, index: number) => (
+									{category.items.map((skill: string, index: number) => (
 										<li className={styles.hardSkill} key={index}>
-											{skill.title}
+											{skill}
 										</li>
 									))}
 								</ul>

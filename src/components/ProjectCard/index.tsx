@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { ProjectCardProps } from '../../interfaces/projects';
-import { skillItem, skillCategory } from '../../interfaces/skillCategory';
+import { skillCategory } from '../../interfaces/skillCategory';
 import styles from './styles.module.scss';
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
@@ -53,9 +53,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 							<div key={catIndex} className={styles.skillCategory}>
 								<h6 className={styles.categoryTitle}>{category.title}</h6>
 								<ul className={styles.hardSkills}>
-									{category.items.map((skill: skillItem, index: number) => (
+									{category.items.map((skill: string, index: number) => (
 										<li className={styles.hardSkill} key={index}>
-											{skill.title}
+											{skill}
 										</li>
 									))}
 								</ul>

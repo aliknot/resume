@@ -1,10 +1,6 @@
-export type skillItem = {
-    title: string;
-}
-
 export type skillCategory = {
     title: string;
-    items: skillItem[];
+    items: string[];
 }
 
 export interface SkillCategoryProps {
