@@ -17,7 +17,11 @@ const WorkCard = ({ work }: WorkCardProps) => {
 				<h6 className={styles.description}>{description}</h6>
 				{link ? (
 					<div className={styles.linkWrapper}>
-						<Image src={icon} width={20} height={20} alt={title} />
+						{icon && (
+							<div className={styles.linkIcon}>
+								<Image src={icon} width={20} height={20} alt={title} />
+							</div>
+						)}
 						<a className={styles.linkUrl} href={link} target='_blank' rel='noreferrer'>
 							{link}
 						</a>
