@@ -23,7 +23,9 @@ const EducationCard = ({ degree }: EducationCardProps) => {
 				}
 				<div className={styles.details}>
 					<h5 className={styles.name}>{name}</h5>
-					<h6 className={styles.type}>{type}</h6>
+					{
+						type && <h6 className={styles.type}>{type}</h6>	
+					}
 					<h6 className={styles.science}>{science}</h6>
 				</div>
 			</main>
