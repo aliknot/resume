@@ -78,6 +78,30 @@ export const resumeData: ResumeData = {
 						items: ["NLP", "Large Language Models", "LLM Evaluation", "Metric Classification", "Research Methodology", "Evaluation Frameworks", "Data Analysis"]
 					}
 				]
+			},
+			{
+				title: "Stroke Prediction using Machine Learning",
+				description: "End-to-end ML pipeline for predicting stroke risk based on health and demographic factors, developed for Statistical Learning course.",
+				role: "Data Scientist",
+				link: "https://github.com/aliknot/stroke-prediction",
+				bulletPoints: [
+					"Developed end-to-end ML pipeline for stroke risk prediction from health and demographic data",
+					"Implemented robust preprocessing pipeline with missing value handling, outlier detection, and feature scaling",
+					"Built and compared multiple classification models (Logistic Regression, Random Forest, XGBoost, SVM)",
+					"Applied SMOTE and resampling techniques to handle class imbalance",
+					"Performed hyperparameter tuning and cross-validation for model optimization",
+					"Analyzed feature importance to identify key stroke predictors"
+				],
+				skills: [
+					{
+						title: "Core Technologies",
+						items: ["Python", "Scikit-learn", "Pandas", "NumPy", "Jupyter Notebooks"]
+					},
+					{
+						title: "Techniques",
+						items: ["Machine Learning", "Statistical Learning", "Classification", "Data Preprocessing", "Feature Engineering", "EDA", "SMOTE", "Cross-Validation", "Hyperparameter Tuning", "Model Evaluation"]
+					}
+				]
 			}
 		]
 	},
@@ -144,7 +168,7 @@ export const resumeData: ResumeData = {
 	skills: [
 		{
 			title: "Data Science & Machine Learning",
-			items: ["Python", "Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Data Visualization", "Jupyter Notebooks", "Statistical Analysis", "Neural Networks", "CNNs", "Model Optimization", "Feature Engineering", "Data Mining", "Large Language Models"]
+			items: ["Python", "Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Data Visualization", "Jupyter Notebooks", "Statistical Learning", "Statistical Analysis", "Neural Networks", "CNNs", "Classification", "Model Optimization", "Feature Engineering", "Data Preprocessing", "Data Mining", "Large Language Models", "EDA", "SMOTE", "Cross-Validation", "Hyperparameter Tuning", "Model Evaluation"]
 		},
 		{
 			title: "Software Development",
