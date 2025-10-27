@@ -4,9 +4,9 @@ import { hardSkill } from '../hardSkills';
 export type project = {
     title: string;
     description: string;
-    date: date;
+    date?: date;
     role: string;
-    icon: string;
+    icon?: string;
     link: string;
     hardSkills: hardSkill[];
     bulletPoints?: string[];

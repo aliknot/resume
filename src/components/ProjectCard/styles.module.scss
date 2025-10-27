@@ -45,10 +45,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	overflow: hidden;
+	max-width: 100%;
 
 	img {
 		border-radius: 4px;
+		flex-shrink: 0;
 	}
+}
+
+.linkIcon{
+	margin-right: 8px;
 }
 
 .linkUrl {
@@ -56,7 +63,11 @@
 	font-weight: normal;
 	color: $blue-purple;
 	text-decoration: underline;
-	margin-left: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+	display: inline-block;
 }
 
 .bottom {
@@ -157,6 +168,10 @@
 		width: calc(50% - 16px);
 		max-width: none;
 	}
+	
+	.linkUrl {
+		max-width: 180px;
+	}
 }
 @media only screen and (max-width: $breakpoint-md) {
 	.projectCard {
@@ -164,10 +179,18 @@
 		max-width: 500px;
 		margin: 8px auto;
 	}
+	
+	.linkUrl {
+		max-width: 250px;
+	}
 }
 @media only screen and (max-width: $breakpoint-sm) {
 	.projectCard {
 		width: calc(100% - 16px);
 		margin: 8px;
+	}
+	
+	.linkUrl {
+		max-width: 200px;
 	}
 }
