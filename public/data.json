@@ -48,48 +48,28 @@
 					"Conducted data quality analysis including color bias, brightness/contrast, and sharpness metrics",
 					"Created end-to-end Jupyter Notebook pipeline for Data Mining coursework"
 				],
-				"hardSkills": [
+				"skills": [
 					{
-						"title": "Deep Learning"
+						"title": "Core Technologies",
+						"items": [
+							{ "title": "Python" },
+							{ "title": "TensorFlow" },
+							{ "title": "Keras" },
+							{ "title": "Jupyter Notebooks" }
+						]
 					},
 					{
-						"title": "Computer Vision"
-					},
-					{
-						"title": "CNNs"
-					},
-					{
-						"title": "ResNet18"
-					},
-					{
-						"title": "ResNet50"
-					},
-					{
-						"title": "Keras"
-					},
-					{
-						"title": "TensorFlow"
-					},
-					{
-						"title": "Python"
-					},
-					{
-						"title": "Jupyter Notebooks"
-					},
-					{
-						"title": "T-SNE"
-					},
-					{
-						"title": "Data Augmentation"
-					},
-					{
-						"title": "Data Visualization"
-					},
-					{
-						"title": "AffectNet Dataset"
-					},
-					{
-						"title": "Data Mining"
+						"title": "Techniques",
+						"items": [
+							{ "title": "Deep Learning" },
+							{ "title": "Computer Vision" },
+							{ "title": "CNNs" },
+							{ "title": "ResNet18" },
+							{ "title": "ResNet50" },
+							{ "title": "Data Augmentation" },
+							{ "title": "T-SNE" },
+							{ "title": "Data Mining" }
+						]
 					}
 				]
 			},
@@ -104,30 +84,18 @@
 					"Investigated trade-offs between evaluation accuracy, computational efficiency, and human annotation requirements",
 					"Created detailed comparative analysis of metric reliability and applicability for various NLP scenarios"
 				],
-				"hardSkills": [
+				"skills": [
 					{
-						"title": "NLP"
-					},
-					{
-						"title": "Large Language Models"
-					},
-					{
-						"title": "LLM Evaluation"
-					},
-					{
-						"title": "Metric Classification"
-					},
-					{
-						"title": "Research Methodology"
-					},
-					{
-						"title": "Evaluation Frameworks"
-					},
-					{
-						"title": "Academic Research"
-					},
-					{
-						"title": "Data Analysis"
+						"title": "Research & Analysis",
+						"items": [
+							{ "title": "NLP" },
+							{ "title": "Large Language Models" },
+							{ "title": "LLM Evaluation" },
+							{ "title": "Metric Classification" },
+							{ "title": "Research Methodology" },
+							{ "title": "Evaluation Frameworks" },
+							{ "title": "Data Analysis" }
+						]
 					}
 				]
 			}
@@ -155,21 +123,25 @@
 					"Improved code base quality and performance optimization",
 					"Rewrote a complete new version of the search page, along with performance optimizations"
 				],
-				"hardSkills": [
+				"skills": [
 					{
-						"title": "Next.js"
+						"title": "Technologies",
+						"items": [
+							{ "title": "Next.js" },
+							{ "title": "React.js" },
+							{ "title": "TypeScript" },
+							{ "title": "JavaScript" },
+							{ "title": "Sass" }
+						]
 					},
 					{
-						"title": "React.js"
-					},
-					{
-						"title": "Typescript"
-					},
-					{
-						"title": "Javascript"
-					},
-					{
-						"title": "Sass"
+						"title": "Practices",
+						"items": [
+							{ "title": "Micro-frontend Architecture" },
+							{ "title": "Performance Optimization" },
+							{ "title": "Mentoring" },
+							{ "title": "Code Quality" }
+						]
 					}
 				]
 			},
@@ -191,12 +163,13 @@
 					"Implemented secure payment gateway integration",
 					"Created admin dashboard for managing medical packages and bookings"
 				],
-				"hardSkills": [
+				"skills": [
 					{
-						"title": "Next.js"
-					},
-					{
-						"title": "React.js"
+						"title": "Technologies",
+						"items": [
+							{ "title": "Next.js" },
+							{ "title": "React.js" }
+						]
 					}
 				]
 			}

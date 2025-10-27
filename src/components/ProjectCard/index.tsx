@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import { ProjectCardProps } from '../../interfaces/projects';
-import { hardSkill } from '../../interfaces/hardSkills';
+import { skillItem, skillCategory } from '../../interfaces/skillCategory';
 import styles from './styles.module.scss';
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
-	const { date, title, description, icon, link, role, hardSkills, bulletPoints } = project;
+	const { date, title, description, icon, link, role, skills, bulletPoints } = project;
 	return (
 		<div className={styles.projectCard}>
 			<div className={styles.top}>
@@ -46,21 +46,26 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 						</ul>
 					</div>
 				)}
-				{hardSkills.length ? (
+				{skills && skills.length > 0 && (
 					<div className={styles.skillsSection}>
 						<h6 className={styles.skillsTitle}>Skills</h6>
-						<ul className={styles.hardSkills}>
-							{hardSkills.map((hardSkill: hardSkill, index: number) => (
-								<li className={styles.hardSkill} key={index}>
-									{hardSkill.icon && (
-										<Image src={hardSkill.icon} width={16} height={16} alt={hardSkill.title} />
-									)}
-									<span className={styles.hardSkillTitle}>{hardSkill.title}</span>
-								</li>
-							))}
-						</ul>
+						{skills.map((category: skillCategory, catIndex: number) => (
+							<div key={catIndex} className={styles.skillCategory}>
+								<h6 className={styles.categoryTitle}>{category.title}</h6>
+								<ul className={styles.hardSkills}>
+									{category.items.map((skill: skillItem, index: number) => (
+										<li className={styles.hardSkill} key={index}>
+											{skill.icon && (
+												<Image src={skill.icon} width={16} height={16} alt={skill.title} />
+											)}
+											<span className={styles.hardSkillTitle}>{skill.title}</span>
+										</li>
+									))}
+								</ul>
+							</div>
+						))}
 					</div>
-				) : null}
+				)}
 			</div>
 		</div>
 	);

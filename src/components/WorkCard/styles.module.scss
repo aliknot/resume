@@ -83,6 +83,22 @@
 	margin-top: 16px;
 }
 
+.skillCategory {
+	margin-bottom: 16px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.categoryTitle {
+	font-size: 13px;
+	font-weight: 600;
+	color: $black;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
 .skillsTitle {
 	font-size: 14px;
 	font-weight: 600;
