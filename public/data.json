@@ -36,8 +36,7 @@
 		"items": [
 			{
 				"title": "Facial Expression Recognition",
-				"description": "A deep learning project to recognize facial expressions using CNNs and advanced computer vision techniques.",
-			
+				"description": "A deep learning project to recognize facial expressions using CNNs and advanced computer vision techniques.",			
 				"role": "Data Scientist",
 				"link": "https://github.com/aliknot/AffectNet_Facial_Expression_Recognition.git",
 				"bulletPoints": [
@@ -91,6 +90,44 @@
 					},
 					{
 						"title": "Data Mining"
+					}
+				]
+			},
+			{
+				"title": "Classification of Open-Ended Metrics for LLM Tasks",
+				"description": "Comprehensive study classifying evaluation metrics for Large Language Models and open-ended NLP tasks.",
+				"role": "Research Analyst",
+				"bulletPoints": [
+					"Conducted comprehensive classification study of 100+ evaluation metrics for open-ended NLP and LLM tasks",
+					"Categorized metrics across multiple dimensions: automatic vs. human evaluation, reference-based vs. reference-free approaches",
+					"Analyzed evaluation complexity and computational requirements for different metric categories",
+					"Investigated trade-offs between evaluation accuracy, computational efficiency, and human annotation requirements",
+					"Created detailed comparative analysis of metric reliability and applicability for various NLP scenarios"
+				],
+				"hardSkills": [
+					{
+						"title": "NLP"
+					},
+					{
+						"title": "Large Language Models"
+					},
+					{
+						"title": "LLM Evaluation"
+					},
+					{
+						"title": "Metric Classification"
+					},
+					{
+						"title": "Research Methodology"
+					},
+					{
+						"title": "Evaluation Frameworks"
+					},
+					{
+						"title": "Academic Research"
+					},
+					{
+						"title": "Data Analysis"
 					}
 				]
 			}
