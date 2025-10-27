@@ -180,15 +180,21 @@ export const resumeData: ResumeData = {
 				icon: "/assets/images/works/aramicmedtour.png",
 				link: "https://aramicmedtour.com",
 				bulletPoints: [
-					"Built comprehensive health tourism platform with booking system",
-					"Developed multi-language support for international patients",
-					"Implemented secure payment gateway integration",
+					"Implemented and designed the main pages (e.g. doctor, hospital, and hotel pages)",
+					"Revised the usage of Next.js by utilizing SSR and SSG.",
+                    "Added internationalization support to the web application (based on i18n)",
+                    "Instructed and guided two interns by providing them with tutorials and assigning basic tasks and responsibilities to them",
+                    "Improved code base quality and performance optimization",
 					"Created admin dashboard for managing medical packages and bookings"
 				],
 				skills: [
 					{
 						title: "Technologies",
-						items: ["Next.js", "React.js"]
+						items: ["Next.js", "React.js", "JavaScript", "HTML5", "CSS", "Git"]
+					},
+					{
+						title: "Practices",
+						items: ["Responsive Web Design", "Scrum", "Code Quality", "Internationalization (i18n)", "SSR", "SSG"]
 					}
 				]
 			}
