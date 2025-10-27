@@ -1,0 +1,285 @@
+import { ResumeData } from '../interfaces/resumeData';
+
+export const resumeData: ResumeData = {
+	about: {
+		firstname: "Alireza",
+		lastname: "Fazel",
+		jobTitle: "Data Scientist & Software Engineer",
+		description: "I'm a Data Science student passionate about Machine Learning and Deep Learning, supported by over three years of foundational Software Engineering experience. My expertise lies in analyzing complex data and developing diverse machine learning models—including predictive, classification, and deep learning solutions—optimizing neural networks using Python, TensorFlow, and PyTorch. I focus on building high-performing models and extracting meaningful insights from challenging datasets.",
+		image: "/assets/images/about/about.jpg",
+		socialLinks: [
+			{
+				icon: "location",
+				value: "Italy, Naples"
+			},
+			{
+				icon: "phone",
+				value: "+39 3347089250",
+				link: "tel: +39 3347089250"
+			},
+			{
+				icon: "mail",
+				value: "alirezafazel379@gmail.com",
+				link: "mailto: alirezafazel379@gmail.com"
+			},
+			{
+				icon: "linkedin",
+				value: "alireza-fazel-863204199",
+				link: "https://www.linkedin.com/in/alireza-fazel-863204199/"
+			},
+			{
+				icon: "github",
+				value: "GitHub: aliknot",
+				link: "https://github.com/aliknot"
+			}
+		]
+	},
+	projects: {
+		items: [
+			{
+				title: "Facial Expression Recognition",
+				description: "A deep learning project to recognize facial expressions using CNNs and advanced computer vision techniques.",
+				role: "Data Scientist",
+				link: "https://github.com/aliknot/AffectNet_Facial_Expression_Recognition.git",
+				bulletPoints: [
+					"Benchmarked ResNet18 and ResNet50 architectures for 8-class emotion classification (Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, Surprise)",
+					"Developed computer vision pipeline using AffectNet dataset with 96x96 pixel face-cropped images",
+					"Built binary and multi-class classification models for comparative performance analysis",
+					"Applied data augmentation and oversampling techniques with 70/20/10 train/validation/test splits",
+					"Implemented T-SNE visualization for high-dimensional feature space analysis",
+					"Conducted data quality analysis including color bias, brightness/contrast, and sharpness metrics",
+					"Created end-to-end Jupyter Notebook pipeline for Data Mining coursework"
+				],
+				skills: [
+					{
+						title: "Core Technologies",
+						items: [
+							{ title: "Python" },
+							{ title: "TensorFlow" },
+							{ title: "Keras" },
+							{ title: "Jupyter Notebooks" }
+						]
+					},
+					{
+						title: "Techniques",
+						items: [
+							{ title: "Deep Learning" },
+							{ title: "Computer Vision" },
+							{ title: "CNNs" },
+							{ title: "ResNet18" },
+							{ title: "ResNet50" },
+							{ title: "Data Augmentation" },
+							{ title: "T-SNE" },
+							{ title: "Data Mining" }
+						]
+					}
+				]
+			},
+			{
+				title: "Classification of Open-Ended Metrics for LLM Tasks",
+				description: "Comprehensive study classifying evaluation metrics for Large Language Models and open-ended NLP tasks.",
+				role: "Research Analyst",
+				bulletPoints: [
+					"Conducted comprehensive classification study of 100+ evaluation metrics for open-ended NLP and LLM tasks",
+					"Categorized metrics across multiple dimensions: automatic vs. human evaluation, reference-based vs. reference-free approaches",
+					"Analyzed evaluation complexity and computational requirements for different metric categories",
+					"Investigated trade-offs between evaluation accuracy, computational efficiency, and human annotation requirements",
+					"Created detailed comparative analysis of metric reliability and applicability for various NLP scenarios"
+				],
+				skills: [
+					{
+						title: "Research & Analysis",
+						items: [
+							{ title: "NLP" },
+							{ title: "Large Language Models" },
+							{ title: "LLM Evaluation" },
+							{ title: "Metric Classification" },
+							{ title: "Research Methodology" },
+							{ title: "Evaluation Frameworks" },
+							{ title: "Data Analysis" }
+						]
+					}
+				]
+			}
+		]
+	},
+	works: {
+		items: [
+			{
+				title: "Malltina",
+				description: "E-Commerce Web Application",
+				date: {
+					start: "Jul 2021",
+					finish: "Present"
+				},
+				location: "Karaj",
+				type: "Remote",
+				jobTitle: "Front-End Developer",
+				icon: "/assets/images/works/malltina.jpg",
+				link: "https://malltina.com",
+				bulletPoints: [
+					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
+					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
+					"Mentored 2 junior front-end developers who wanted to get a deep understanding of React.js and Next.js",
+					"Maintained graphic standards and branding throughout the product's interfaces using base components",
+					"Improved code base quality and performance optimization",
+					"Rewrote a complete new version of the search page, along with performance optimizations"
+				],
+				skills: [
+					{
+						title: "Technologies",
+						items: [
+							{ title: "Next.js" },
+							{ title: "React.js" },
+							{ title: "TypeScript" },
+							{ title: "JavaScript" },
+							{ title: "Sass" }
+						]
+					},
+					{
+						title: "Practices",
+						items: [
+							{ title: "Micro-frontend Architecture" },
+							{ title: "Performance Optimization" },
+							{ title: "Mentoring" },
+							{ title: "Code Quality" }
+						]
+					}
+				]
+			},
+			{
+				title: "Aramicmedtour",
+				description: "Health Tour Web Application",
+				date: {
+					start: "Mar 2020",
+					finish: "Jul 2021"
+				},
+				location: "Isfahan",
+				type: "Remote",
+				jobTitle: "Front-End Developer",
+				icon: "/assets/images/works/aramicmedtour.png",
+				link: "https://aramicmedtour.com",
+				bulletPoints: [
+					"Built comprehensive health tourism platform with booking system",
+					"Developed multi-language support for international patients",
+					"Implemented secure payment gateway integration",
+					"Created admin dashboard for managing medical packages and bookings"
+				],
+				skills: [
+					{
+						title: "Technologies",
+						items: [
+							{ title: "Next.js" },
+							{ title: "React.js" }
+						]
+					}
+				]
+			}
+		]
+	},
+	skills: [
+		{
+			title: "Data Science & Machine Learning",
+			items: [
+				{ title: "Python" },
+				{ title: "Machine Learning" },
+				{ title: "Deep Learning" },
+				{ title: "Computer Vision" },
+				{ title: "Natural Language Processing" },
+				{ title: "TensorFlow" },
+				{ title: "PyTorch" },
+				{ title: "Keras" },
+				{ title: "Scikit-learn" },
+				{ title: "Pandas" },
+				{ title: "NumPy" },
+				{ title: "Data Analysis" },
+				{ title: "Data Visualization" },
+				{ title: "Jupyter Notebooks" },
+				{ title: "Statistical Analysis" },
+				{ title: "Neural Networks" },
+				{ title: "CNNs" },
+				{ title: "Model Optimization" },
+				{ title: "Feature Engineering" },
+				{ title: "Data Mining" },
+				{ title: "Large Language Models" }
+			]
+		},
+		{
+			title: "Software Development",
+			items: [
+				{ title: "JavaScript" },
+				{ title: "TypeScript" },
+				{ title: "React.js" },
+				{ title: "Next.js" },
+				{ title: "Node.js" },
+				{ title: "HTML" },
+				{ title: "CSS" },
+				{ title: "Sass" },
+				{ title: "Git" },
+				{ title: "GitHub" },
+				{ title: "RESTful APIs" },
+				{ title: "Micro-frontend Architecture" },
+				{ title: "Responsive Design" },
+				{ title: "Performance Optimization" },
+				{ title: "PHP" },
+				{ title: "MySQL" },
+				{ title: "jQuery" },
+				{ title: "Web Development" },
+				{ title: "Front-End Development" }
+			]
+		},
+		{
+			title: "Soft Skills",
+			items: [
+				{ title: "Communication" },
+				{ title: "Teamwork" },
+				{ title: "Problem Solving" },
+				{ title: "Critical Thinking" },
+				{ title: "Mentoring" },
+				{ title: "Leadership" },
+				{ title: "Adaptability" },
+				{ title: "Time Management" },
+				{ title: "Attention to Detail" },
+				{ title: "Creativity" },
+				{ title: "Organization" },
+				{ title: "Research" }
+			]
+		}
+	],
+	education: {
+		items: [
+			{
+				name: "Federico II University of Naples",
+				grade: "Master's Degree",
+				science: "Data Science",
+				icon: "/assets/images/education/federico-ii.jpeg",
+				date: {
+					start: "2023",
+					finish: "2026"
+				}
+			},
+			{
+				name: "Shamsipour Tehran",
+				type: "Technical & Vocational",
+				grade: "Bachelor's Degree",
+				science: "Software Engineering",
+				icon: "/assets/images/education/shamsipour.png",
+				date: {
+					start: "2020",
+					finish: "2022"
+				}
+			},
+			{
+				name: "Mohajer Isfahan",
+				type: "Technical & Vocational",
+				grade: "Associate's Degree",
+				science: "Computer Engineering",
+				icon: "/assets/images/education/mohajer.jpg",
+				date: {
+					start: "2018",
+					finish: "2020"
+				}
+			}
+		]
+	}
+};
