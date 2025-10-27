@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../../core/Banner';
 import AboutDetails from '../../components/AboutDetails';
 import AboutImage from '../../components/AboutImage';
 import styles from './style.module.scss';
@@ -10,7 +9,6 @@ const About = ({ about }: AboutProps) => {
 	return (
 		<section className={styles.whiteSection} id='about'>
 			<div className={styles.wrapper}>
-				<Banner title='About Me' />
 				<div className={styles.aboutDetails}>
 					<AboutDetails about={about} />
 					<AboutImage image={about.image} />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../../core/Banner';
 import { degree } from '../../interfaces/education';
 import EducationCard from '../../components/EducationCard';
 import { hardSkill } from '../../interfaces/hardSkills';
@@ -12,7 +11,6 @@ const SkillsEducation = ({ hardSkills, softSkills, education }: SkillsEducationP
 	return (
 		<section className={styles.whiteSection} id='skills_education'>
 			<div className={styles.wrapper}>
-				<Banner title='My skills and Education' />
 				<div className={styles.skillsAndEducationContainer}>
 					<section className={styles.skills}>
 						<h3 className={styles.myWorkTitle}>
