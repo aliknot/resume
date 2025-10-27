@@ -108,6 +108,35 @@ export const resumeData: ResumeData = {
 	works: {
 		items: [
 			{
+				title: "Apple Developer Academy @Unina Federico II",
+				description: "ML-powered iOS Application Development",
+				date: {
+					start: "Sep 2024",
+					finish: "Jun 2025"
+				},
+				location: "Naples",
+				type: "Italy",
+				jobTitle: "iOS Developer",
+				icon: "/assets/images/works/apple-academy.png",
+				bulletPoints: [
+					"Developed iOS applications integrating on-device machine learning using Core ML and Create ML",
+					"Built SwiftUI interfaces following Apple's Human Interface Guidelines",
+					"Implemented data persistence solutions using SwiftData",
+					"Applied product thinking principles to deliver user-centric solutions",
+					"Distributed beta versions through TestFlight for user testing and feedback"
+				],
+				skills: [
+					{
+						title: "iOS Development",
+						items: ["Swift", "SwiftUI", "Core ML", "Create ML", "SwiftData", "TestFlight"]
+					},
+					{
+						title: "Practices",
+						items: ["Product Thinking", "On-Device ML", "Beta Testing"]
+					}
+				]
+			},
+			{
 				title: "Malltina",
 				description: "E-Commerce Web Application",
 				date: {
@@ -172,7 +201,11 @@ export const resumeData: ResumeData = {
 		},
 		{
 			title: "Software Development",
-			items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "HTML", "CSS", "Sass", "Git", "GitHub", "RESTful APIs", "Micro-frontend Architecture", "Responsive Design", "Performance Optimization", "PHP", "MySQL", "jQuery", "Web Development", "Front-End Development"]
+			items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "HTML", "CSS", "Sass", "Tailwind CSS", "Git", "GitHub", "RESTful APIs", "Redux", "Zustand", "React Query", "SWR", "Styled Components", "Emotion", "Responsive Web Design", "Micro-frontend Architecture", "Performance Optimization", "PHP", "MySQL", "jQuery", "Web Development", "Front-End Development", "Swift", "SwiftUI", "Core ML", "Create ML", "SwiftData", "TestFlight", "iOS Development", "Mobile Development"]
+		},
+		{
+			title: "Methodologies & Tools",
+			items: ["Agile", "Scrum", "Jira", "Product Thinking", "Code Quality", "Mentoring"]
 		},
 		{
 			title: "Soft Skills",
