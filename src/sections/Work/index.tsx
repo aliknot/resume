@@ -1,4 +1,3 @@
-import Banner from '../../core/Banner';
 import WorkCard from '../../components/WorkCard';
 import React from 'react';
 import { WorksProps, work } from '../../interfaces/works';
@@ -8,9 +7,8 @@ const Work = ({ works }: WorksProps) => {
 	return (
 		<section className={styles.graySection} id='work'>
 			<div className={styles.wrapper}>
-				<Banner title='My Work' />
 				<h3 className={styles.workTitle}>
-					Some of My Recent <span className={styles.bluePurple}>Works</span>
+					Professional Experience
 				</h3>
 				{works.items.length ? (
 					<div className={styles.workCardsWrapper}>

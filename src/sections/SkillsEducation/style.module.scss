@@ -33,8 +33,19 @@
 	height: 100%;
 }
 
-.bluePurple {
-	color: $blue-purple;
+.skillCategory {
+	margin-bottom: 48px;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.myWorkTitle {
+	font-size: 32px;
+	color: $dark-blue-grey;
+	margin-top: 0;
+	margin-bottom: 24px;
 }
 
 .skillsTitle {
@@ -50,17 +61,11 @@
 	align-items: center;
 	flex-wrap: wrap;
 }
+
 .box {
 	display: flex;
 	align-items: center;
-
-	img {
-		border-radius: 50%;
-	}
-}
-
-.iconWrapper{
-	margin-right: 8px;
+	justify-content: center;
 }
 
 .education {

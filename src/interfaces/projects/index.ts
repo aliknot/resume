@@ -1,14 +1,14 @@
 import { date } from '../date';
-import { hardSkill } from '../hardSkills';
+import { skillCategory } from '../skillCategory';
 
 export type project = {
     title: string;
     description: string;
-    date: date;
+    date?: date;
     role: string;
-    icon: string;
-    link: string;
-    hardSkills: hardSkill[];
+    icon?: string;
+    link?: string;
+    skills: skillCategory[];
     bulletPoints?: string[];
 }
 

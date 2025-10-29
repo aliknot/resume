@@ -1,4 +1,3 @@
-import Banner from '../../core/Banner';
 import ProjectCard from '../../components/ProjectCard';
 import React from 'react';
 import { ProjectProps, project } from '../../interfaces/projects';
@@ -8,9 +7,8 @@ const Project = ({ projects }: ProjectProps) => {
 	return (
 		<section className={styles.graySection} id='work'>
 			<div className={styles.wrapper}>
-				<Banner title='My Projects' />
 				<h3 className={styles.workTitle}>
-					Some of My Recent <span className={styles.bluePurple}>Projects</span>
+					Projects
 				</h3>
 				{projects.items.length ? (
 					<div className={styles.workCardsWrapper}>

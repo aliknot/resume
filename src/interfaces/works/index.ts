@@ -1,5 +1,5 @@
 import { date } from '../date';
-import { hardSkill } from '../hardSkills';
+import { skillCategory } from '../skillCategory';
 
 export type work = {
 	title: string;
@@ -8,9 +8,9 @@ export type work = {
 	location: string;
 	type: string;
 	jobTitle: string;
-	icon: string;
-	link: string;
-	hardSkills: hardSkill[];
+	icon?: string;
+	link?: string;
+	skills: skillCategory[];
 	bulletPoints?: string[];
 }
 

@@ -2,7 +2,7 @@ import { date } from '../date';
 
 export type degree = {
 	name: string;
-	type: string;
+	type?: string;
 	grade: string;
 	science: string;
 	icon?: string;

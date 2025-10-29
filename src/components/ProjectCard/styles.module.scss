@@ -45,10 +45,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	overflow: hidden;
+	max-width: 100%;
 
 	img {
 		border-radius: 4px;
+		flex-shrink: 0;
 	}
+}
+
+.linkIcon{
+	margin-right: 8px;
 }
 
 .linkUrl {
@@ -56,7 +63,11 @@
 	font-weight: normal;
 	color: $blue-purple;
 	text-decoration: underline;
-	margin-left: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+	display: inline-block;
 }
 
 .bottom {
@@ -83,6 +94,22 @@
 	margin-top: 16px;
 }
 
+.skillCategory {
+	margin-bottom: 16px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.categoryTitle {
+	font-size: 13px;
+	font-weight: 600;
+	color: $black;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
 .skillsTitle {
 	font-size: 14px;
 	font-weight: 600;
@@ -94,8 +121,7 @@
 .hardSkill {
 	display: inline-flex;
 	align-items: center;
-	gap: 4px;
-	padding: 6px 8px;
+	padding: 6px 12px;
 	border: 1px solid #cacce4;
 	border-radius: 6px;
 	transition: all 0.3s;
@@ -104,20 +130,6 @@
 	font-weight: 300;
 	margin-right: 8px;
 	margin-bottom: 8px;
-
-	img {
-		border-radius: 50%;
-	}
-}
-
-.hardSkillTitle {
-	font-size: inherit;
-	font-weight: inherit;
-	color: inherit;
-}
-
-.iconWrapper {
-	margin-right: 8px;
 }
 
 .bulletPointsSection {
@@ -157,6 +169,10 @@
 		width: calc(50% - 16px);
 		max-width: none;
 	}
+	
+	.linkUrl {
+		max-width: 180px;
+	}
 }
 @media only screen and (max-width: $breakpoint-md) {
 	.projectCard {
@@ -164,10 +180,18 @@
 		max-width: 500px;
 		margin: 8px auto;
 	}
+	
+	.linkUrl {
+		max-width: 250px;
+	}
 }
 @media only screen and (max-width: $breakpoint-sm) {
 	.projectCard {
 		width: calc(100% - 16px);
 		margin: 8px;
+	}
+	
+	.linkUrl {
+		max-width: 200px;
 	}
 }
